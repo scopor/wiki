@@ -63,7 +63,7 @@ function nav() {
 function sidebarGo() {
     return [
         {
-            text: '基础知识',
+            text: 'go',
             collapsible: true,
             items: [
                 { text: 'Introduction', link: '/go/index' },
