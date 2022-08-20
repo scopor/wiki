@@ -5,7 +5,6 @@ export default defineConfig({
     title: '燕不移',
     description: '燕不移的数字花园.',
 
-    base: '/wiki/',
     ignoreDeadLinks: true,
     lastUpdated: true,
     cleanUrls: 'without-subfolders',
