@@ -13,12 +13,12 @@ hero:
     link: /whisper/秦岭东坪沟草甸
 
 features:
+  - title: 鱼踪野趣
+    details: 自留地，瞎扯淡。
   - title: 学习笔记
     details: 程序员的一生。
   - title: 读书笔记
     details: 言不正经。
-  - title: 碎碎念
-    details: 自留地，瞎扯淡。
   - title: 图说生活
     details: 旅行、随手拍。
 ---
