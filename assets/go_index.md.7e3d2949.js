@@ -1,6 +1,0 @@
-import{_ as s,c as a,o as n,a as e}from"./app.c2c24322.js";const A=JSON.parse('{"title":"1988","description":"","frontmatter":{},"headers":[{"level":2,"title":"1988","slug":"_1988"}],"relativePath":"go/index.md","lastUpdated":1660972035000}'),l={name:"go/index.md"},o=e(`<h2 id="_1988" tabindex="-1">1988 <a class="header-anchor" href="#_1988" aria-hidden="true">#</a></h2><div class="language-shell"><button class="copy"></button><span class="lang">shell</span><pre><code><span class="line"><span style="color:#676E95;">#!/bin/bash</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#89DDFF;">for</span><span style="color:#A6ACCD;"> i </span><span style="color:#89DDFF;">in</span><span style="color:#A6ACCD;"> {1..5} </span><span style="color:#89DDFF;">;</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">do</span></span>
-<span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#82AAFF;">echo</span><span style="color:#A6ACCD;"> i</span></span>
-<span class="line"><span style="color:#89DDFF;">done</span></span>
-<span class="line"></span></code></pre></div>`,2),p=[o];function t(c,r,i,_,d,D){return n(),a("div",null,p)}const y=s(l,[["render",t]]);export{A as __pageData,y as default};
