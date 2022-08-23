@@ -1,8 +1,3 @@
-## 1988
-```shell
-#!/bin/bash
+## Go 学习笔记
 
-for i in {1..5} ; do
-    echo i
-done
-```
+本文记录学习 **Go** 语言的过程笔记。

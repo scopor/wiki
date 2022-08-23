@@ -1,16 +1,16 @@
 ---
 layout: home
 
-title: 燕不移的数字花园
-titleTemplate: 燕不移
+title: 鱼野的数字花园
+titleTemplate: 鱼野
 
 hero:
   name: 江海寄余生
   tagline: 一之谓甚，其可在乎？
   actions:
   - theme: brand
-    text: Hi，燕不移
-    link: /go/index
+    text: Hi，鱼野。
+    link: /whisper/秦岭东坪沟草甸
 
 features:
   - title: 学习笔记

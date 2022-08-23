@@ -4,12 +4,18 @@
   "main": "index.ts",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^18.7.8",
     "vitepress": "^1.0.0-alpha.8",
+    "markdown-it-container": "^1.0.0",
     "vue": "^3.2.37"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-block-embed": "^0.0.3"
   }
 }
