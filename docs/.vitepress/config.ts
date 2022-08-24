@@ -97,7 +97,7 @@ export default defineConfig({
         algolia: {
             appId: '9OQ78ZRX8Q',
             apiKey: 'ffc69de67dfcb8e5f31bc5bdf142a3ed',
-            indexName: '鱼野'
+            indexName: 'wiki.sanoon.me'
         },
 
         carbonAds: {
