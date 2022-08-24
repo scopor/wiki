@@ -8,7 +8,7 @@
     height: 387px;
 }
 
-/*
-<div id="video">
-<iframe class="iframevideo" type="text/html" src="https://www.youtube.com/embed/upW7h6DKiXA?autoplay=1&loop=1&rel=0&showinfo=0&playlist=upW7h6DKiXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>*/
+
+.VPSidebar[data-v-f332cb62] {
+    overflow-y: hidden;
+}
