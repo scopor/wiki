@@ -33,8 +33,7 @@ export default defineConfig({
         config: (md) => {
             const width = '100%';
             md.use(require('markdown-it-block-embed'), {
-                youtube: {width: '100%', height: '387px'},
-                bilibili: {width: '100%', height: '390px' }
+                youtube: {width: '100%', height: '387px'}
             });
 
             md.use(require('markdown-it-container'), 'netease', {
@@ -96,8 +95,8 @@ export default defineConfig({
         },
 
         algolia: {
-            appId: '',
-            apiKey: '',
+            appId: '9OQ78ZRX8Q',
+            apiKey: '829fe316f2db755c1d71b591d732f5c4',
             indexName: '鱼野'
         },
 
