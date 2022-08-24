@@ -176,7 +176,7 @@ function sidebarPhoto() {
             text: 'Photo',
             collapsible: true,
             items: [
-                { text: '天桥湖', link: '/photo/index' },
+                { text: '朱雀森林公园', link: '/photo/index' },
             ]
         }
     ]
