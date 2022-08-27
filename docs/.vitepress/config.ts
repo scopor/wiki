@@ -95,9 +95,9 @@ export default defineConfig({
         },
 
         algolia: {
-            appId: '9OQ78ZRX8Q',
-            apiKey: 'ffc69de67dfcb8e5f31bc5bdf142a3ed',
-            indexName: 'wiki.sanoon.me'
+            appId: 'IWDH4QV6TT',
+            apiKey: '1055507df36613992a79998675cee0cf',
+            indexName: 'sanoon'
         },
 
         carbonAds: {
