@@ -118,7 +118,7 @@ function nav() {
                 { text: 'Java 学习笔记', link: '/java/index' }
             ]
         },
-        { text: '读书笔记', link: '/reading/index', activeMatch: '/python/' },
+        { text: '读书笔记', link: '/reading/index', activeMatch: '/reading/' },
         { text: '图说生活', link: '/photo/index', activeMatch: '/photo/' }
     ]
 }
