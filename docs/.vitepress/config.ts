@@ -71,6 +71,7 @@ export default defineConfig({
     },
 
     themeConfig: {
+        logo: '../../favicon.ico',
         nav: nav(),
 
         sidebar: {
