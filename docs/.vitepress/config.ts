@@ -72,6 +72,8 @@ export default defineConfig({
 
     themeConfig: {
         logo: '/favicon.ico',
+        outlineTitle: '目录',
+        lastUpdatedText: '最后更新时间',
         nav: nav(),
 
         sidebar: {
@@ -85,9 +87,14 @@ export default defineConfig({
             { icon: 'github', link: 'https://github.com/scopor' }
         ],
 
+        docFooter: {
+            prev: '上一篇',
+            next: '下一篇'
+        },
+
         editLink: {
             pattern: 'https://github.com/scopor/wiki/edit/main/docs/:path',
-            text: 'Edit this page on GitHub'
+            text: '完善此页'
         },
 
         footer: {
