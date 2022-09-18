@@ -198,6 +198,13 @@ function sidebarWhisper() {
             items: [
                 { text: '秦岭东坪沟草甸', link: '/whisper/秦岭东坪沟草甸' },
             ]
+        },
+        {
+            text: '旅行足迹',
+            collapsible: true,
+            items: [
+                { text: '青海之行', link: '/whisper/青海之行' },
+            ]
         }
     ]
 }
