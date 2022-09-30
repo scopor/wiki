@@ -1,5 +1,4 @@
-import { defineConfig } from 'vitepress';
-import type { HeadConfig } from 'vitepress'
+import { defineConfig, HeadConfig } from 'vitepress';
 
 export const head: HeadConfig[] = [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -17,7 +16,7 @@ export const head: HeadConfig[] = [
     ['meta', { property: 'og:site', content: 'https://wiki.sanoon.me' }],
     ['meta', { property: 'og:site_name', content: '鱼野的数字花园' }],
     ['meta', { property: 'og:image', content: '鱼野的数字花园' }]
-]
+];
 
 export default defineConfig({
     lang: 'zh_CN',
