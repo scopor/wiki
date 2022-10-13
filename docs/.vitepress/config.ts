@@ -15,7 +15,8 @@ export const head: HeadConfig[] = [
     ['meta', { property: 'og:description', content: '鱼野的数字花园, 个人知识管理，学习笔记，读书笔记，生活随笔。' }],
     ['meta', { property: 'og:site', content: 'https://wiki.sanoon.me' }],
     ['meta', { property: 'og:site_name', content: '鱼野的数字花园' }],
-    ['meta', { property: 'og:image', content: '鱼野的数字花园' }]
+    ['meta', { property: 'og:image', content: '鱼野的数字花园' }],
+    ['script', {src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765261154701378", async: "true", crossOrigin: "anonymous"}]
 ];
 
 export default defineConfig({
