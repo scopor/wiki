@@ -143,7 +143,6 @@ function sidebarGo() {
                 { text: '常量', link: '/go/基础知识/常量' },
                 { text: '函数', link: '/go/基础知识/函数' },
                 { text: '包和文件', link: '/go/基础知识/包和文件' },
-
                 { text: '基础数据类型', link: '/go/基础知识/基础数据类型' },
                 { text: '字符串', link: '/go/基础知识/字符串' },
                 { text: '指针', link: '/go/基础知识/指针' },
