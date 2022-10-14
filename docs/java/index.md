@@ -1,5 +1,5 @@
 <script setup>
-var docFooter = document.getElementsByClassName("VPDocFooter").get(0);
+var docFooter = document.getElementsByClassName('VPDocFooter')[0];
 var ins = document.createElement("div");
 ins.innerHTML = `<ins class="adsbygoogle"
      style="display:block"
