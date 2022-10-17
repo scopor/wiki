@@ -16,7 +16,7 @@ export const head: HeadConfig[] = [
     ['meta', { property: 'og:site', content: 'https://wiki.sanoon.me' }],
     ['meta', { property: 'og:site_name', content: '鱼野的数字花园' }],
     ['meta', { property: 'og:image', content: '鱼野的数字花园' }],
-    // ['script', {src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765261154701378", async: "true", crossOrigin: "anonymous"}],
+    ['script', {src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765261154701378", async: "true", crossOrigin: "anonymous"}],
     ['script', {src: "https://www.googletagmanager.com/gtag/js?id=G-91MY43NGWN", async: "true", crossOrigin: "anonymous"}],
     ['script', {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-91MY43NGWN');`]
 ];
