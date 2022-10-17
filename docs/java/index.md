@@ -1,1 +1,6 @@
 ## init
+
+
+<ClientOnly>
+  <GoogleAdsense />
+</ClientOnly>
