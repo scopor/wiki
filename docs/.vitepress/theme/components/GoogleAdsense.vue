@@ -1,5 +1,4 @@
-<script setup src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765261154701378" async="true" crossOrigin="anonymous">
-</script>
+<script setup></script>
 
 <template>
   <div class="google-adsense">
