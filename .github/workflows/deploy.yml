@@ -19,7 +19,7 @@ jobs:
       - name: Preprocess
         run: |
             ls $GITHUB_WORKSPACE/docs/go/基础知识/
-            cd $GITHUB_WORKSPACE/docs/go/基础知识/ && echo "<GoogleAdsense/>" >> *.md
+            cd $GITHUB_WORKSPACE/docs/go/基础知识/ && echo "<GoogleAdsense/>" >> `*.md`
             echo "<GoogleAdsense/>" >> $GITHUB_WORKSPACE/docs/go/进阶部分/*.md
             echo "<GoogleAdsense/>" >> $GITHUB_WORKSPACE/docs/go/*.md
             echo "<GoogleAdsense/>" >> $GITHUB_WORKSPACE/docs/java/*.md
