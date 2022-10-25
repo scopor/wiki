@@ -1,3 +1,2 @@
 ## init
 
-<GoogleAdsense />
