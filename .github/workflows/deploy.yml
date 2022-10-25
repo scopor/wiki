@@ -19,6 +19,9 @@ jobs:
       - name: Preprocess
         run: |
           echo $GITHUB_WORKSPACE
+          ls -d $GITHUB_WORKSPACE
+          echo "<GoogleAdsense/>" >> $GITHUB_WORKSPACE/docs/go/*.md
+          
         
       - name: Build
         run: yarn docs:build
