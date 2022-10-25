@@ -4,6 +4,7 @@ import { onMounted } from 'vue'
 onMounted(() => {
     const adsbygoogle = (window as any).adsbygoogle as any
     adsbygoogle?.push({})
+})
 </script>
 
 <template>
