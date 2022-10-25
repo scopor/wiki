@@ -18,10 +18,13 @@ jobs:
       
       - name: Preprocess
         run: |
-            cd $GITHUB_WORKSPACE/docs/go/基础知识/
-            for file in $(ls ./)
-            do 
-                echo "<GoogleAdsense/>" >> $file
+            for dir in ['$GITHUB_WORKSPACE/docs/go/基础知识/', '$GITHUB_WORKSPACE/docs/go/进阶部分/', '$GITHUB_WORKSPACE/docs/java/', '$GITHUB_WORKSPACE/docs/python/', '$GITHUB_WORKSPACE/docs/whisper/']
+            do
+                cd $dir
+                for file in $(ls ./)
+                do
+                    echo "<GoogleAdsense/>" >> $file
+                done
             done
         
       - name: Build
