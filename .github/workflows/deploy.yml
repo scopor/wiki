@@ -15,7 +15,11 @@ jobs:
           node-version: 16
           cache: yarn
       - run: yarn install --frozen-lockfile
-
+      
+      - name: Preprocess
+        run: |
+          echo $GITHUB_WORKSPACE
+        
       - name: Build
         run: yarn docs:build
 
