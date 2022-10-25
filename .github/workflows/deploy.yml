@@ -18,9 +18,10 @@ jobs:
       
       - name: Preprocess
         run: |
-          echo $GITHUB_WORKSPACE
-          ls -d $GITHUB_WORKSPACE
-          echo "<GoogleAdsense/>" >> $GITHUB_WORKSPACE/docs/go/*.md
+          echo "<GoogleAdsense/>" >> $GITHUB_WORKSPACE/docs/go/*/*.md
+          echo "<GoogleAdsense/>" >> $GITHUB_WORKSPACE/docs/java/*/*.md
+          echo "<GoogleAdsense/>" >> $GITHUB_WORKSPACE/docs/python/*/*.md
+          echo "<GoogleAdsense/>" >> $GITHUB_WORKSPACE/docs/whisper/*/*.md
           
         
       - name: Build
