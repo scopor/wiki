@@ -18,8 +18,8 @@ jobs:
       
       - name: Preprocess
         run: |
-            find $GITHUB_WORKSPACE/docs/go/基础知识/ -name *md
-            for file in $(find $GITHUB_WORKSPACE/docs/go/基础知识/ -name *md)
+            cd $GITHUB_WORKSPACE/docs/go/基础知识/
+            for file in $(ls ./)
             do 
                 echo "<GoogleAdsense/>" >> $file
             done
