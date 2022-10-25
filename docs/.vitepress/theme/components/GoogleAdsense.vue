@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+onMounted(() => {
+    const adsbygoogle = (window as any).adsbygoogle as any
+    adsbygoogle?.push({})
+</script>
 
 <template>
   <div class="google-adsense">
