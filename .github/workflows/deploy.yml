@@ -20,7 +20,9 @@ jobs:
         run: |
           for file in $(find $GITHUB_WORKSPACE/docs/ -name *.md)
           do
-            echo "<GoogleAdsense/>" >> $file
+              echo $file
+              echo "<GoogleAdsense/>" >> $file
+              grep -r 'Google' $file
           done
         
       - name: Build
