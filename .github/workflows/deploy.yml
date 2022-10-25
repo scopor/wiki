@@ -18,6 +18,7 @@ jobs:
       
       - name: Preprocess
         run: |
+            ls $GITHUB_WORKSPACE/docs/go/
             echo "<GoogleAdsense/>" >> $GITHUB_WORKSPACE/docs/go/基础知识/*.md
             echo "<GoogleAdsense/>" >> $GITHUB_WORKSPACE/docs/go/进阶部分/*.md
             echo "<GoogleAdsense/>" >> $GITHUB_WORKSPACE/docs/go/*.md
