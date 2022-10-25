@@ -3,7 +3,7 @@ import { defineConfig, HeadConfig } from 'vitepress';
 export const head: HeadConfig[] = [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'author', content: 'sanoon' }],
-    ['meta', { name: 'keywords', content: '鱼野, Go语言, Java, Python' }],
+    ['meta', { name: 'keywords', content: '鱼野, Go, Java, Python' }],
 
     ['meta', { name: 'HandheldFriendly', content: 'True' }],
     ['meta', { name: 'MobileOptimized', content: '320' }],
@@ -12,7 +12,7 @@ export const head: HeadConfig[] = [
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
     ['meta', { property: 'og:title', content: '鱼野的数字花园' }],
-    ['meta', { property: 'og:description', content: '鱼野的数字花园, 个人知识管理，学习笔记，读书笔记，生活随笔。' }],
+    ['meta', { property: 'og:description', content: '鱼野的数字花园, 个人知识管理，Go, Java, Python学习笔记，读书笔记，生活随笔。' }],
     ['meta', { property: 'og:site', content: 'https://wiki.sanoon.me' }],
     ['meta', { property: 'og:site_name', content: '鱼野的数字花园' }],
     ['meta', { property: 'og:image', content: '鱼野的数字花园' }],
