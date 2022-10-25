@@ -3,7 +3,7 @@ import { defineConfig, HeadConfig } from 'vitepress';
 export const head: HeadConfig[] = [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'author', content: 'sanoon' }],
-    ['meta', { name: 'keywords', content: '鱼野的数字花园, 个人知识管理，学习笔记，读书笔记，生活随笔, sanoon' }],
+    ['meta', { name: 'keywords', content: '鱼野, Go语言, Java, Python' }],
 
     ['meta', { name: 'HandheldFriendly', content: 'True' }],
     ['meta', { name: 'MobileOptimized', content: '320' }],
