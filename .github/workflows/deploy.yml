@@ -18,8 +18,7 @@ jobs:
       
       - name: Preprocess
         run: |
-            dirs = ("$GITHUB_WORKSPACE/docs/go/基础知识/" "$GITHUB_WORKSPACE/docs/go/进阶部分/" "$GITHUB_WORKSPACE/docs/java/" "$GITHUB_WORKSPACE/docs/python/" "$GITHUB_WORKSPACE/docs/whisper/")
-            for dir in ${dirs[@]}
+            for dir in "$GITHUB_WORKSPACE/docs/go/基础知识/" "$GITHUB_WORKSPACE/docs/go/进阶部分/" "$GITHUB_WORKSPACE/docs/java/" "$GITHUB_WORKSPACE/docs/python/" "$GITHUB_WORKSPACE/docs/whisper/"
             do
                 cd $dir
                 for file in $(ls ./)
