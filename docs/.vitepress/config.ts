@@ -162,6 +162,7 @@ function sidebarGo() {
             items: [
                 { text: '结构体', link: '/go/进阶部分/结构体' },
                 { text: '接口', link: '/go/进阶部分/接口' },
+                { text: '协程', link: '/go/进阶部分/协程' },
             ]
         }
     ]
