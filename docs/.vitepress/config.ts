@@ -83,6 +83,7 @@ export default defineConfig({
             '/python/': sidebarPython(),
             '/whisper/': sidebarWhisper(),
             '/photo/': sidebarPhoto(),
+            '/java': sidebarJava(),
         },
 
         socialLinks: [
@@ -176,6 +177,18 @@ function sidebarPython() {
             collapsible: true,
             items: [
                 { text: 'Introduction', link: '/python/index' },
+            ]
+        }
+    ]
+}
+
+function sidebarJava() {
+    return [
+        {
+            text: 'Java',
+            collapsible: true,
+            items: [
+                { text: 'Introduction', link: '/java/index' },
             ]
         }
     ]
