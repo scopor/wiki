@@ -22,7 +22,7 @@ export const head: HeadConfig[] = [
 ];
 
 export default defineConfig({
-    lang: 'zh_CN',
+    lang: 'zh',
     title: '鱼野的数字花园',
     description: '鱼野的数字花园.',
 
