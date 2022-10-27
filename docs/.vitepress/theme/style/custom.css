@@ -21,3 +21,8 @@
 .VPDocAsideCarbonAds {
     display: none;
 }
+
+img.VPImage.logo {
+    width: 24px;
+    height: 24px;
+}
