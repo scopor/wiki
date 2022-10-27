@@ -1,3 +1,26 @@
+---
+title: Go 语言笔记：defer
+head:
+- - meta
+  - property: og:title
+    content: Go 语言笔记：defer
+- - meta
+  - name: description
+    content: defer 是 Go 新增的关键字，表示延迟调用，在 defer 之后可以紧跟表达式或者函数。defer 后面的语句会在当前函数执行完毕后被执行。
+- - meta
+  - name: keywords
+    content: Go,defer
+- - meta
+  - property: og:description
+    content: defer 是 Go 新增的关键字，表示延迟调用，在 defer 之后可以紧跟表达式或者函数。defer 后面的语句会在当前函数执行完毕后被执行。
+- - meta
+  - property: og:url
+    content: https://wiki.sanoon.me/go/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/defer
+- - link
+  - rel: canonical
+    href: https://wiki.sanoon.me/go/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/defer
+---
+
 ## defer 定义
 
 `defer` 是 `Go` 新增的关键字，表示延迟调用，在 `defer` 之后可以紧跟表达式或者函数。`defer` 后面的语句会在当前函数执行完毕后被执行。
