@@ -1,4 +1,5 @@
 import { defineConfig, HeadConfig } from 'vitepress';
+import {transformHtml, buildEnd} from "./config/sitemap";
 
 export const head: HeadConfig[] = [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -27,6 +28,8 @@ export default defineConfig({
     description: '鱼野的数字花园.',
 
     head,
+    transformHtml,
+    buildEnd,
     ignoreDeadLinks: true,
     lastUpdated: true,
     cleanUrls: 'without-subfolders',

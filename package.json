@@ -5,9 +5,10 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.7.8",
-    "vitepress": "^1.0.0-alpha.8",
+    "vitepress": "1.0.0-alpha.17",
     "markdown-it-container": "^1.0.0",
-    "vue": "^3.2.37"
+    "vue": "^3.2.37",
+    "sitemap": "^7.1.1"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",

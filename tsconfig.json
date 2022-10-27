@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "sourceMap": true
+  },
+  "include": ["docs/.vitepress/**/*.ts", "docs/**/*.ts", "docs/**/*.d.ts", "docs/**/*.tsx", "docs/**/*.vue"],
+  "exclude": [
+    "node_modules"
+  ],
+}
