@@ -73,7 +73,7 @@ export default defineConfig({
     },
 
     themeConfig: {
-        logo: '/favicon.ico',
+        logo: {src: '/favicon.ico', alt: 'logo'},
         outlineTitle: '目录',
         lastUpdatedText: '最后更新时间',
         nav: nav(),
