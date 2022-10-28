@@ -129,7 +129,7 @@ function nav() {
             items: [
                 { text: 'Go 学习笔记', link: '/go/index' },
                 { text: 'Python 学习笔记', link: '/python/index' },
-                { text: 'Java 学习笔记', link: '/java/index' }
+                { text: 'Java 学习笔记', link: '/java/观察者模式' }
             ]
         },
         { text: '杂文码记', link: '/coding/index', activeMatch: '/coding/' },
@@ -189,10 +189,10 @@ function sidebarPython() {
 function sidebarJava() {
     return [
         {
-            text: 'Java',
+            text: '设计模式',
             collapsible: true,
             items: [
-                { text: 'Introduction', link: '/java/index' },
+                { text: '观察者模式', link: '/java/观察者模式' },
             ]
         }
     ]
