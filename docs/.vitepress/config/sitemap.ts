@@ -7,6 +7,7 @@ const hostname = 'https://wiki.sanoon.me/';
 
 export const transformHtml = (_, id, { pageData }) => {
     if (!/[\\/]404\.html$/.test(id)) {
+        console.log(pageData)
         links.push({
             url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2'),
             lastmod: pageData.lastUpdated
