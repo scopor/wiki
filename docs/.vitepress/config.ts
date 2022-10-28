@@ -124,16 +124,17 @@ export default defineConfig({
 
 function nav() {
     return [
-        { text: '鱼踪野趣', link: '/whisper/秦岭东坪沟草甸', activeMatch: '/whisper/' },
         {
-            text: '学习笔记',
+            text: '笔记系列',
             items: [
                 { text: 'Go 学习笔记', link: '/go/index' },
                 { text: 'Python 学习笔记', link: '/python/index' },
                 { text: 'Java 学习笔记', link: '/java/index' }
             ]
         },
+        { text: '杂文码记', link: '/coding/index', activeMatch: '/coding/' },
         { text: '读书笔记', link: '/reading/index', activeMatch: '/reading/' },
+        { text: '鱼踪野趣', link: '/whisper/秦岭东坪沟草甸', activeMatch: '/whisper/' },
         { text: '图说生活', link: '/photo/index', activeMatch: '/photo/' }
     ]
 }
