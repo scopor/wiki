@@ -10,7 +10,7 @@ hero:
   actions:
   - theme: brand
     text: Hi，鱼野。
-    link: /whisper/秦岭东坪沟草甸
+    link: /go/
 
 features:
   - title: 鱼踪野趣
