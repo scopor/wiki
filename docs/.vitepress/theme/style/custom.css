@@ -1,3 +1,8 @@
+::-webkit-scrollbar {
+  /* Chrome Safari */
+  display: none;
+}
+
 
 .vp-doc div[class*='language-'] {
     border-radius: 2px;
