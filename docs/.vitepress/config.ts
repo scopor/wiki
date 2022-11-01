@@ -132,6 +132,7 @@ function nav() {
                 { text: 'Java 学习笔记', link: '/java/观察者模式' }
             ]
         },
+        { text: '读书笔记', link: '/reading/重构', activeMatch: '/reading/' },
         { text: '鱼踪野趣', link: '/whisper/秦岭东坪沟草甸', activeMatch: '/whisper/' }
     ]
 }
@@ -190,6 +191,18 @@ function sidebarJava() {
             collapsible: true,
             items: [
                 { text: '观察者模式', link: '/java/观察者模式' },
+            ]
+        }
+    ]
+}
+
+function sidebarReading() {
+    return [
+        {
+            text: '技术书籍',
+            collapsible: true,
+            items: [
+                { text: '重构：改善既有代码设计', link: '/reading/重构' },
             ]
         }
     ]
