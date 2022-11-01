@@ -132,10 +132,7 @@ function nav() {
                 { text: 'Java 学习笔记', link: '/java/观察者模式' }
             ]
         },
-        { text: '杂文码记', link: '/coding/index', activeMatch: '/coding/' },
-        { text: '读书笔记', link: '/reading/index', activeMatch: '/reading/' },
-        { text: '鱼踪野趣', link: '/whisper/秦岭东坪沟草甸', activeMatch: '/whisper/' },
-        { text: '图说生活', link: '/photo/index', activeMatch: '/photo/' }
+        { text: '鱼踪野趣', link: '/whisper/秦岭东坪沟草甸', activeMatch: '/whisper/' }
     ]
 }
 
