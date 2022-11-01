@@ -87,6 +87,7 @@ export default defineConfig({
             '/whisper/': sidebarWhisper(),
             '/photo/': sidebarPhoto(),
             '/java': sidebarJava(),
+            '/reading': sidebarReading(),
         },
 
         socialLinks: [
