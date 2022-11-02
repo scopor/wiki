@@ -23,6 +23,7 @@ jobs:
                 cd $dir
                 for file in $(ls ./)
                 do
+                    echo "---" >> $file
                     echo "<GoogleAdsense/>" >> $file
                 done
             done
