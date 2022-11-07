@@ -204,6 +204,7 @@ function sidebarReading() {
             collapsible: true,
             items: [
                 { text: '重构：改善既有代码设计', link: '/reading/重构' },
+                { text: '从0到1：HTML+CSS快速上手', link: '/reading/css' },
             ]
         }
     ]
