@@ -278,7 +278,7 @@ a[title$="ing"] {color: blue;}
 a[title$="in"] {color: blue;}
 ```
 
-属性值单词开头选择器
+### 属性值单词开头选择器
 
 选择属性值以指定单词开头的所有元素。使用语法 **[attr|="value"] {}** 定义。
 
