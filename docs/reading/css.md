@@ -292,6 +292,170 @@ a[title|="Winter"] {color: blue;}
 
 :::
 
+
+---
+
+## 伪类选择器
+
+伪类选择器是 **CSS** 中已经定义好的选择器，不能随便起名。
+
+### 锚点伪类选择器
+
+```css
+/** 选择所有未访问过的链接 */
+a:link {} 
+/** 选择所有访问过的链接 */
+a:visited {} 
+/** 选择鼠标指针位于其上的链接 */
+a:hover {} 
+/** 选择活动链接,点击时显示 */
+a:active {}
+```
+
+### 伪元素选择器
+
+伪元素选择器是指并不是针对真正的元素使用的选择器，而是针对 **CSS** 中已经定义好的伪元素使用的选择器。伪元素选择器也可以与类配合使用。
+
+```css
+/** first-line伪元素选择器: 选择第一行文字，如 p :first-line {} */
+:first-line {}
+/** first-letter伪元素选择器: 选择首字母，如 p :first-letter {} */
+:first-letter {}
+/** before伪元素选择器: 在某元素之前插入一些内容 */
+:before {content: "待插入的内容"}
+/** after伪元素选择器: 在某元素之后插入一些内容 */
+:after {content: "待插入的内容"}
+
+```
+
+---
+
+## 结构性伪类选择器
+
+### **root** 选择器
+
+**root** 选择器将样式绑定到页面的根元素中。根元素是指位于文档树中最顶层结构的元素，在 **HTML** 页面中就是指包含着整个页面的 **<html>** 部分。
+
+```css
+/** 设置整个 HTML 页面的背景色*/
+:root {
+    background-color: red;
+}
+```
+
+### **not** 选择器
+
+如果想对某个结构元素使用样式，但是想排除这个结构元素下面的子结构元素，让它不使用这个样式时，可以使用 **not** 选择器。
+
+```css
+/** 设置页面中非 <p> 元素的背景色*/
+:not(p) {
+    background-color: red;
+}
+```
+
+### empty 选择器
+
+使用empty选择器来指定当元素中内容为空白时使用的样式。
+
+```css
+:empty {
+    background-color: red;
+}
+
+<ul class="season">
+    <li>Spring</li>
+    <li></li>
+    <li>Autumn</li>
+    <li>Winter</li>
+</ul>
+```
+
+### **target** 选择器
+
+使用 **target** 选择器来对页面中某个 **target** 元素（该元素的 **id** 被当作页面中的超链接来使用）指定样式，该样式只在用户点击了页面中的超链接，并且跳转到 **target** 元素后起作用。
+
+ ```css
+:target {
+    background-color: red;
+}
+
+<div>
+    <a href="#Summer">演示跳转到Summer后，Summer位置的背景色变化</a>
+    <ul class="season">
+        <li id="Spring">Spring</li>
+        <li id="Summer">Summer</li>
+        <li id="Autumn">Autumn</li>
+        <li id="Winter">Winter</li>
+    </ul>
+</div>
+ ```
+
+### **first-child** 选择器
+
+选择一个父元素中的第一个子元素。使用语法 **:first-child** {} 定义。
+
+```css
+li:first-child {
+    color: red;
+}
+```
+
+### **last-child** 选择器
+
+选择一个父元素中的最后一个子元素。使用语法 **:last-child {}** 定义。
+
+```css
+li:last-child {
+    color: red;
+}
+```
+
+### **nth-child** 选择器
+
+选择一个父元素中的指定序号的子元素。使用语法 **:nth-child(序号) {}** 定义。
+
+```css
+li:nth-child(2) {
+    color: red;
+}
+```
+
+### **nth-last-child** 选择器
+
+选择一个父元素中的指定反向序号的子元素。使用语法 **:nth-last-child(序号) {}** 定义。
+
+```css
+li:nth-last-child(2) {
+    color: red;
+}
+```
+
+### 奇偶数选择器
+
+扩展上面的选择器 **nth-child** 和 **nth-last-child** 选择器，参数使用奇数（odd）和偶数（even）来定义
+
+```css
+/** 正序，选择奇数 */
+li:nth-child(odd) {
+    color: red;
+}
+
+/** 正序，选择偶数 */
+li:nth-child(even) {
+    color: red;
+}
+
+/** 倒序，选择奇数 */
+li:nth-last-child(odd) {
+    color: red;
+}
+
+/** 倒序，选择偶数 */
+li:nth-last-child(even) {
+    color: red;
+}
+```
     
     
 ---
