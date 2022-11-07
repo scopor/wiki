@@ -79,7 +79,7 @@ export default defineConfig({
         logo: {src: '/favicon.ico', alt: 'logo'},
         outlineTitle: '目录',
         lastUpdatedText: '最后更新时间',
-        outline：[2,3,4],
+        outline: [2,3,4],
         nav: nav(),
 
         sidebar: {
