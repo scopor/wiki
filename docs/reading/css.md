@@ -1,5 +1,5 @@
 ---
-title: CSS 笔记
+title: 从0到1：HTML+CSS快速上手 学习笔记
 head:
 - - meta
   - property: og:title
@@ -21,7 +21,7 @@ head:
     href: https://wiki.sanoon.me/reading/css
 ---
 
-# **CSS** 学习笔记
+# 「从0到1：HTML+CSS快速上手」学习笔记
 
 ## 引入 **CSS** 的四种方式
 
