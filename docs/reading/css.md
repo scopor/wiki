@@ -375,7 +375,7 @@ a:active {}
 
 使用 **target** 选择器来对页面中某个 **target** 元素（该元素的 **id** 被当作页面中的超链接来使用）指定样式，该样式只在用户点击了页面中的超链接，并且跳转到 **target** 元素后起作用。
 
- ```css
+```css
 :target {
     background-color: red;
 }
@@ -389,7 +389,7 @@ a:active {}
         <li id="Winter">Winter</li>
     </ul>
 </div>
- ```
+```
 
 ### **first-child** 选择器
 
