@@ -1,4 +1,25 @@
-
+---
+title: CSS 笔记
+head:
+- - meta
+  - property: og:title
+    content: CSS 笔记
+- - meta
+  - name: description
+    content: CSS,引入方式,选择器
+- - meta
+  - name: keywords
+    content: CSS,引入方式,选择器
+- - meta
+  - property: og:description
+    content: CSS,引入方式,选择器
+- - meta
+  - property: og:url
+    content: https://wiki.sanoon.me/reading/css
+- - link
+  - rel: canonical
+    href: https://wiki.sanoon.me/reading/css
+---
 
 # **CSS** 学习笔记
 
