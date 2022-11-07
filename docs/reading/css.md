@@ -222,7 +222,7 @@ a[title][href] {color: blue;}
     <li title="Spring">Spring</li>
     <li>Summer</li>
     <li><a href="#">Autumn</a></li>
-    <li><a title="Winter is comming" href="#">Winter</a></li>
+    <li><a title="Winter is coming" href="#">Winter</a></li>
 </ul>
 ```
 
@@ -235,7 +235,7 @@ a[title][href] {color: blue;}
 a[href="#"] {color: red;}
 
 /** 选择所有有锚点 href 值为 # 且 title 值为 Winter 的 a 标签*/
-a[href="#"][title="Winter is comming"] {color: blue;}
+a[href="#"][title="Winter is coming"] {color: blue;}
 ```
 
 ### 部分属性值选择器
@@ -246,6 +246,51 @@ a[href="#"][title="Winter is comming"] {color: blue;}
 a[title~="Winter"] {color: purple;}
 ```
 
+---
+
+:::tip
+
+子串匹配属性选择器：属性值开头选择器、属性值结尾选择器、属性值包含选择器，这里的指定值都是子串。
+
+:::
+
+### 属性值开头选择器
+
+选择属性值开头是指定值的所有元素。使用语法 **[attr^="value"] {}** 定义。
+
+```css
+a[title^="Win"] {color: blue;}
+```
+
+### 属性值结尾选择器
+
+选择属性值结尾是指定值的所有元素。使用语法 **[attr^="value"] {}** 定义。
+
+```css
+a[title$="ing"] {color: blue;}
+```
+
+### 属性值包含选择器
+
+选择属性值中包含某个子串的所有元素。使用语法 **[attr*="value"] {}** 定义。和部分属性选择器不同的是：部分属性选择器的属性值必须是完整的单词，不是子串。
+
+```css
+a[title$="in"] {color: blue;}
+```
+
+属性值单词开头选择器
+
+选择属性值以指定单词开头的所有元素。使用语法 **[attr|="value"] {}** 定义。
+
+```css
+a[title|="Winter"] {color: blue;}
+```
+
+:::warning
+
+选择器之间是存在优先级的，测试以上选择器时请注意不生效的时候，可能是优先级导致的，优先级后续会补充。
+
+:::
 
     
     
