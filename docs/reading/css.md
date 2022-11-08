@@ -1,18 +1,18 @@
 ---
-title: 从0到1：HTML+CSS快速上手 学习笔记
+title: CSS 学习笔记：引入方式和选择器
 head:
 - - meta
   - property: og:title
-    content: CSS 笔记
+    content: CSS 学习笔记：引入方式和选择器
 - - meta
   - name: description
-    content: CSS,引入方式,选择器
+    content: CSS,引入方式,ID选择器,类选择器,元素选择器,伪类选择器,属性选择器,选择器优先级
 - - meta
   - name: keywords
-    content: CSS,引入方式,选择器
+    content: CSS,引入方式,ID选择器,类选择器,元素选择器,伪类选择器,属性选择器,选择器优先级
 - - meta
   - property: og:description
-    content: CSS,引入方式,选择器
+    content: CSS,引入方式,ID选择器,类选择器,元素选择器,伪类选择器,属性选择器,选择器优先级
 - - meta
   - property: og:url
     content: https://wiki.sanoon.me/reading/css
@@ -21,7 +21,7 @@ head:
     href: https://wiki.sanoon.me/reading/css
 ---
 
-# 「从0到1：HTML+CSS快速上手」学习笔记
+# CSS 学习笔记：引入方式和选择器
 
 ## 引入 **CSS** 的四种方式
 
@@ -544,8 +544,201 @@ p:only-of-type {
 </div>
 ```
 
----
+## 元素状态伪类选择器
 
+以下讲解元素统一使用 E 代替
+
+### 伪类选择器E:hover, E:active 和 E:focus
+```css
+/* 鼠标经过时的样式 */
+E:hover {}
+
+/* 鼠标点击且未松开时的样式 */
+E:active {}
+
+/* 获得光标焦点时的样式 */
+E:hover {}
+```
+
+
+### 伪类选择器 E:enabled 与 E:disabled
+```css
+/* 当元素处于可用状态时的样式 */
+E:enabled {}
+
+/* 当元素处于不可用状态时的样式 */
+E:disabled {}
+```
+
+
+### 伪类选择器 E:read-only 与 E:read-write
+```css
+/* 当元素处于可用状态时的样式 */
+E:read-only {}
+
+/* 当元素处于不可用状态时的样式 */
+E:read-write {}
+```
+
+### 伪类选择器 E:checked, E:default 和 E:indeterminate
+```css
+/* 当单选框或者复选框被选中时的样式 */
+E:checked {}
+
+/* 当页面打开的时候单选框或者复选框默认选中的样式，取消选中也不会消失 */
+E:default {}
+
+/* 当页面打开时，一组单选框中没有任何一个单选框被设定为选取状态时整组单选框的样式，选中某一个单选框后样式会消失 */
+E:indeterminate {}
+```
+
+### 伪类选择器 E::selection
+
+用来指定当元素处于选中状态时的样式
+
+```css
+p::selection{
+  background:red;
+  color:#FFF;
+}
+
+<div>
+    <p>这是一段测试文字</p>
+</div>
+```
+
+### 伪类选择器 E:invalid 和 E:valid
+
+```css
+/* E:invalid 用来指定当元素通不过元素的属性校验的时候的样式 */
+input[type="email"]:invalid{
+    background-color: red;
+}
+
+/* E:valid 用来指定当元素通过元素的属性校验的时候的样式 */
+input[type="email"]:valid{
+    background-color: white;
+}
+
+<form>
+    <p>请输入任意文字：<input required type="email"/></p>
+</form>
+```
+
+### 伪类选择器 E:required 和 E:optional
+
+* E：required 伪类选择器用来指定允许使用 required 属性，且已经指定了 required 属性的 input 元素、select 元素以及 textarea 元素的样式。    
+* E：optional 伪类选择器用来指定允许使用 required 属性，且未指定 required 属性的 input 元素、select 元素以及 textarea 元素的样式。
+
+```css
+input[type="text"]:required{
+  border-color: red;
+  border-width:3px;
+}
+input[type="text"]:optional{
+  border-color: black;
+  border-width:1px;
+}
+
+<form>
+    姓名：<input type="text" required placeholder="必须输入姓名" /><br/>
+    住址：<input type="text" />
+</form>
+```
+
+### 伪类选择器 E:in-range 与 E:out-of-range
+
+* E:in-range 伪类选择器用来指定当元素的有效值被限定在一段范围之内（通常通过 min 属性值与 max 属性值来限定），且实际输入值在该范围内时使用的样式。
+* E:out-of-range 伪类选择器用来指定当元素的有效值被限定在一段范围之内（通常通过 min 属性值与 max 属性值来限定），但实际输入值在该范围之外时使用的样式。
+
+```css
+input[type="number"]:in-range{
+    background-color: white;
+}
+input[type="number"]:out-of-range{
+    background-color: red;
+}
+
+<form>
+    请输入1到100之内的数值：<input type=number min=0 max=100 />
+</form>
+```
+
+## 选择器的优先级
+
+:::tip
+CSS 优先规则 1：最近的祖先样式比其他祖先样式优先级高。    
+CSS 优先规则 2：直接样式 比 祖先样式 优先级高。    
+CSS 优先规则 3：优先级关系：内联样式 > ID 选择器 > 类选择器 = 属性选择器 = 伪类选择器 > 元素选择器 = 伪元素选择器    
+CSS 优先规则 4：计算选择符中 ID 选择器的个数（a），计算选择符中类选择器、属性选择器以及伪类选择器的个数之和（b），计算选择符中标签选择器和伪元素选择器的个数之和（c）。按 a、b、c 的顺序依次比较大小，大的则优先级高，相等则比较下一个。若最后两个的选择符中 a、b、c 都相等，则按照"就近原则"来判断。    
+CSS 优先规则 5：属性后插有 !important 的属性拥有最高优先级。若同时插有 !important，则再利用规则 3、4 判断优先级。
+:::
+
+```html
+<!-- CSS 优先规则 1: 类名为 son 的 div 的 color 为 blue -->
+<div style="color: red">
+    <div style="color: blue">
+        <div class="son"></div>
+    </div>
+</div>
+```
+
+```html
+<!-- CSS 优先规则 2: 类名为 son 的 div 的 color 为 blue -->
+<div style="color: red">
+    <div class="son" style="color: blue"></div>
+</div>
+```
+
+```html
+<!-- CSS 优先规则 3: 内联样式优先级别最高 -->
+#content-id {
+    color: red;
+}
+.content-class {
+    color: blue;
+}
+div {
+    color: grey;
+}
+
+<div class="content-class" id="content-id" style="color: black"></div>
+```
+
+
+```html
+<!-- CSS 优先规则 4: 计算各个选择器的数量 -->
+#con-id span {
+    color: red;
+}
+div .con-span {
+    color: blue;
+}
+
+
+<div id="con-id">
+    <span class="con-span"></span>
+</div>
+```
+
+
+```html
+<!-- CSS 优先规则 5：属性后插有 !important 的属性拥有最高优先级 -->
+p {
+    background: red !important;
+}
+.father .son {
+    background: blue;
+}
+
+<div class="father">
+    <p class="son"></p>
+</div>
+```
+    
+---
+    
 [[1]](https://book.douban.com/subject/34897696): 从0到1：HTML + CSS快速上手, 莫振杰.    
-[[2]](https://book.douban.com/subject/26774474/): HTML 5与CSS 3权威指南（下册）, 陆凌牛.
+[[2]](https://book.douban.com/subject/26774474/): HTML 5与CSS 3权威指南（下册）, 陆凌牛.    
+[[3]](https://www.runoob.com/w3cnote/css-style-priority.html): CSS 样式优先级, 菜鸟教程.
 
