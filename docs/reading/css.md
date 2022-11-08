@@ -2,23 +2,23 @@
 title: 从0到1：HTML+CSS快速上手 学习笔记
 head:
 - - meta
-  - property: og:title
-    content: CSS 笔记
+- property: og:title
+  content: CSS 笔记
 - - meta
-  - name: description
-    content: CSS,引入方式,选择器
+- name: description
+  content: CSS,引入方式,选择器
 - - meta
-  - name: keywords
-    content: CSS,引入方式,选择器
+- name: keywords
+  content: CSS,引入方式,选择器
 - - meta
-  - property: og:description
-    content: CSS,引入方式,选择器
+- property: og:description
+  content: CSS,引入方式,选择器
 - - meta
-  - property: og:url
-    content: https://wiki.sanoon.me/reading/css
+- property: og:url
+  content: https://wiki.sanoon.me/reading/css
 - - link
-  - rel: canonical
-    href: https://wiki.sanoon.me/reading/css
+- rel: canonical
+  href: https://wiki.sanoon.me/reading/css
 ---
 
 # 「从0到1：HTML+CSS快速上手」学习笔记
@@ -201,7 +201,7 @@ li + li {
 :::tip
 属性和属性值存在性选择器：根据元素存在的属性和属性值来选择元素。主要有简单属性选择器、属性值选择器、部分属性值选择器等。
 :::
-        
+
 ### 简单属性选择器
 
 > 选择具有某个属性的源宿，不论属性值是什么。使用语法 **[attr] {}** 定义。
@@ -209,13 +209,19 @@ li + li {
 ```css
 /** 选择具有 title 属性的任何元素 */
 *[title] {color: red;}
+```
 
+```css
 /** 选择所有有锚点 href 的 a 标签*/
 a[href] {color: purple;}
+```
 
+```css
 /** 多属性选择, 选择同时具有 title 和 href 的 a 标签 */
 a[title][href] {color: blue;}
+```
 
+```html
 <ul class="season">
     <li title="Spring">Spring</li>
     <li>Summer</li>
@@ -231,7 +237,9 @@ a[title][href] {color: blue;}
 ```css
 /** 选择所有有锚点 href 且其值为 # 的 a 标签*/
 a[href="#"] {color: red;}
+```
 
+```css
 /** 选择所有有锚点 href 值为 # 且 title 值为 Winter 的 a 标签*/
 a[href="#"][title="Winter is coming"] {color: blue;}
 ```
@@ -302,10 +310,19 @@ a[title|="Winter"] {color: blue;}
 ```css
 /** 选择所有未访问过的链接 */
 a:link {} 
+```
+
+```css
 /** 选择所有访问过的链接 */
 a:visited {} 
+```
+
+```css
 /** 选择鼠标指针位于其上的链接 */
 a:hover {} 
+```
+
+```css
 /** 选择活动链接,点击时显示 */
 a:active {}
 ```
@@ -317,13 +334,21 @@ a:active {}
 ```css
 /** first-line伪元素选择器: 选择第一行文字，如 p :first-line {} */
 :first-line {}
+```
+
+```css
 /** first-letter伪元素选择器: 选择首字母，如 p :first-letter {} */
 :first-letter {}
+```
+
+```css
 /** before伪元素选择器: 在某元素之前插入一些内容 */
 :before {content: "待插入的内容"}
+```
+
+```css
 /** after伪元素选择器: 在某元素之后插入一些内容 */
 :after {content: "待插入的内容"}
-
 ```
 
 ---
@@ -438,26 +463,31 @@ li:nth-last-child(2) {
 li:nth-child(odd) {
     color: red;
 }
+```
 
+```css
 /** 正序，选择偶数 */
 li:nth-child(even) {
     color: red;
 }
+```
 
+```css
 /** 倒序，选择奇数 */
 li:nth-last-child(odd) {
     color: red;
 }
+```
 
+```css
 /** 倒序，选择偶数 */
 li:nth-last-child(even) {
     color: red;
 }
 ```
-    
+
     
 ---
 
 [[1]](https://book.douban.com/subject/34897696): 从0到1：HTML + CSS快速上手, 莫振杰.
-
 
