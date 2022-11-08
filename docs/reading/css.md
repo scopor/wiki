@@ -192,10 +192,10 @@ li + li {
 </ul>
 ```
 
-## 属性和属性值存在性选择器
+## 属性选择器
 
 :::tip
-根据元素存在的属性和属性值来选择元素。主要有简单属性选择器、属性值选择器、部分属性值选择器等。
+根据元素存在的属性和属性值来选择元素。主要有简单属性选择器、属性值选择器、部分属性值选择器、属性值开头选择器、属性值结尾选择器、属性值包含选择器、属性值单词开头选择器等。
 :::
 
 ### 简单属性选择器
@@ -239,14 +239,6 @@ a[href="#"][title="Winter is coming"] {color: blue;}
 ```css
 a[title~="Winter"] {color: purple;}
 ```
-
----
-
-## 子串匹配属性选择器
-
-:::tip
-子串匹配属性选择器：属性值开头选择器、属性值结尾选择器、属性值包含选择器，这里的指定值都是子串。
-:::
 
 ### 属性值开头选择器
 
@@ -446,7 +438,114 @@ li:nth-last-child(even) {
 }
 ```
 
-    
+:::warning
+**nth-child** 和 **nth-last-child** 选择器在计算子元素是第奇数个元素还是第偶数个元素时，是连同父元素中的所有子元素一起计算的。
+:::
+
+### **nth-of-type** 选择器
+
+**nth-of-type** 选择器只计算父元素下相同的子元素。
+
+```html
+<div>
+    <h3>Spring</h3>
+    <p>Spring</p>
+    <h3>Summer</h3>
+    <p>Summer</p>
+    <h3>Autumn</h3>
+    <p>Autumn</p>
+    <h3>Winter</h3>
+    <p>Winter</p>
+</div>
+```
+
+
+```css
+h3:nth-of-type(odd) {
+    color: red;
+}
+```
+
+### **nth-last-of-type** 选择器
+
+**nth-last-of-type** 选择器只计算父元素下相同的子元素。
+
+```css
+p:nth-last-of-type(even) {
+    color: blue;
+}
+```
+
+### 循环选择器
+
+循环选择器，是利用四种 **nth** 开头的选择器的妙用。
+
+```css
+/* n 从 0 取值，正序，所有子元素排序 */
+:nth-child(4n + 1) {
+    color: red;
+}
+
+/* n 从 0 取值，倒序，所有子元素排序 */
+:nth-last-child(4n + 1) {
+    color: red;
+}
+
+/* n 从 0 取值，正序，只选取相同的子元素排序 */
+:nth-of-type(4n + 1) {
+    color: red;
+}
+
+/* n 从 0 取值，倒序，只选取相同的子元素排序 */
+:nth-last-of-type(4n + 1) {
+    color: red;
+}
+```
+
+### Only-Child 选择器
+
+指定当某个父元素中只有一个子元素时才使用的样式时，可以使用。
+
+```css
+li:only-child {
+  color: red;
+}
+
+<div>
+    <ul>
+        <li>Spring</li>
+        <li>Winter</li>
+    </ul>
+    <ul>
+        <li>Summer</li>
+    </ul>
+</div>
+```
+
+### Only-Of-Type 选择器
+
+指定当某个父元素中只有一个相同类型的子元素时才使用的样式时，可以使用。
+
+```css
+p:only-of-type {
+  color: red;
+}
+
+<div>
+    <div>
+        <h3>Spring</h3>
+        <p>Spring is beautiful</p>
+        <p>Flowers are everywhere</p>
+    </div>
+    <div>
+        <h3>Winter</h3>
+        <p>Winter is cold</p>
+    </div>
+</div>
+```
+
 ---
 
-[[1]](https://book.douban.com/subject/34897696): 从0到1：HTML + CSS快速上手, 莫振杰.
+[[1]](https://book.douban.com/subject/34897696): 从0到1：HTML + CSS快速上手, 莫振杰.    
+[[2]](https://book.douban.com/subject/26774474/): HTML 5与CSS 3权威指南（下册）, 陆凌牛.
+
