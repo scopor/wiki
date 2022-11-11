@@ -1,5 +1,6 @@
 import { defineConfig, HeadConfig } from 'vitepress';
 import {transformHtml, buildEnd} from "./config/sitemap";
+import customAttrs  from 'markdown-it-custom-attrs';
 
 export const head: HeadConfig[] = [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -17,6 +18,8 @@ export const head: HeadConfig[] = [
     ['meta', { property: 'og:site', content: 'https://wiki.sanoon.me' }],
     ['meta', { property: 'og:site_name', content: '鱼野的数字花园' }],
     ['meta', { property: 'og:image', content: '鱼野的数字花园' }],
+    ["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" }],
+    ["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
     ['script', {src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765261154701378", async: "true", crossOrigin: "anonymous"}],
     ['script', {src: "https://www.googletagmanager.com/gtag/js?id=G-91MY43NGWN", async: "true", crossOrigin: "anonymous"}],
     ['script', {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-91MY43NGWN');`]
@@ -39,6 +42,10 @@ export default defineConfig({
             const width = '100%';
             md.use(require('markdown-it-block-embed'), {
                 youtube: {width: '100%', height: '387px'}
+            });
+
+            md.use(customAttrs, 'image', {
+                'data-fancybox': "gallery"
             });
 
             md.use(require('markdown-it-container'), 'netease', {
