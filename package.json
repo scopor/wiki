@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "markdown-it": "^13.0.1",
-    "markdown-it-block-embed": "^0.0.3"
+    "markdown-it-block-embed": "^0.0.3",
+    "markdown-it-custom-attrs": "^1.0.0"
   }
 }
