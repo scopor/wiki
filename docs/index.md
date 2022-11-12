@@ -5,12 +5,15 @@ title: 鱼野的数字花园
 titleTemplate: 鱼野
 
 hero:
-  name: 江海寄余生
-  tagline: 一之谓甚，其可在乎？
+  name: Hi, 鱼野.
+  tagline: 一之谓甚, 其可在乎?
   actions:
   - theme: brand
-    text: Hi，鱼野。
+    text: 开始阅读
     link: /go/
+  - theme: brand
+    text: Follow me
+    link: https://github.com/scopor
 
 features:
   - title: 鱼踪野趣
