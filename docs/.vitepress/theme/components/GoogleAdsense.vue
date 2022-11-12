@@ -10,6 +10,7 @@ onMounted(() => {
 <template>
   <div class="google-adsense">
      <ins class="adsbygoogle"
+         title="Google Ads" 
          style="display:block; text-align:center;"
          data-ad-layout="in-article"
          data-ad-format="fluid"
