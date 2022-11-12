@@ -123,11 +123,6 @@ export default defineConfig({
             apiKey: "68162896965f1d5662e3220275d06726",
             indexName: 'sanoon'
         },
-
-        carbonAds: {
-            code: '',
-            placement: '鱼野'
-        },
     }
 })
 
