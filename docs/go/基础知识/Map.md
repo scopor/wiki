@@ -21,6 +21,8 @@ head:
     href: https://wiki.sanoon.me/go/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Map
 ---
 
+Go 语言笔记：Map
+
 ## Map
 
 > `Map` 是 `Go` 中的键值对类型，底层是哈希表实现的，`Map` 中的 `key` 具备惟一性，所有可比较的类型，都可以 作为 `key`。
