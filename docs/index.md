@@ -14,14 +14,18 @@ hero:
 
 features:
   - title: 鱼踪野趣
+    icon: 🐳
     details: 自留地，瞎扯淡。
     link: /whisper/秦岭东坪沟草甸
   - title: 学习笔记
+    icon: 🐬
     details: 程序员的乐趣。
     link: /go/
   - title: 读书笔记
+    icon: 🦋
     details: 言不正经。
     link: /reading/重构
   - title: 图说生活
+    icon: 📷
     details: 旅行、随手拍。
 ---
