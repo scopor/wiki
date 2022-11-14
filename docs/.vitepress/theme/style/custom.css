@@ -59,7 +59,7 @@ img.VPImage.logo {
     border-radius: 4px;
 }
 
-.link-preview-title
+.link-preview__title
 {
     font-size: 16px;
     font-weight: 700;
@@ -75,7 +75,7 @@ img.VPImage.logo {
     -webkit-line-clamp: 2;
 }
 
-.link-preview-description
+.link-preview__description
 {
     font-size: 12px;
     font-style: normal;
@@ -95,7 +95,7 @@ img.VPImage.logo {
     -webkit-line-clamp: 2;
 }
 
-.link-preview-url
+.link-preview__url
 {
     font-size: 12px;
     font-style: normal;
@@ -128,7 +128,7 @@ img.VPImage.logo {
     flex: 1;
 }
 
-.link-preview-image
+.link-preview__image
 {
     width: 225px;
     min-width: 220px;
