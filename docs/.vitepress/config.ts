@@ -48,7 +48,7 @@ export default defineConfig({
                 'data-fancybox': "gallery"
             });
             
-            md.use(require('@nekohack/markdown-it-link-preview'))
+            md.use(require('@nekohack/markdown-it-link-preview'));
 
             md.use(require('markdown-it-container'), 'netease', {
                 validate: function(params) {
