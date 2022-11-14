@@ -23,7 +23,7 @@ head:
 
 # CSS 学习笔记：引入方式和选择器
 
-[@preview](https://baidu.com)
+[@preview](https://book.douban.com/subject/34897696/)
 
 ## 引入 **CSS** 的四种方式
 
