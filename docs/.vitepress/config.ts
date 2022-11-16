@@ -198,6 +198,13 @@ function sidebarJava() {
             items: [
                 { text: '观察者模式', link: '/java/观察者模式' },
             ]
+        },
+        {
+            text: '问题集锦',
+            collapsible: true,
+            items: [
+                { text: 'Jar 本地存在 Maven 编译失败', link: '/java/jar-exist' },
+            ]
         }
     ]
 }
