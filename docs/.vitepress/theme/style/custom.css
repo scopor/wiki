@@ -30,6 +30,10 @@
     width: 100%;
 }
 
+.group[data-v-a186aa16] {
+    width: calc(var(--vp-sidebar-width) - 32px);
+}
+
 .block-embed .block-embed-service-youtube[iframe]{
     width: 688px;
     height: 387px;
