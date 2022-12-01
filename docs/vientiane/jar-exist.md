@@ -32,6 +32,6 @@ Could not find artifact org.osgi.core:pom:7.0.0 in centralrepo
 
 ## 解决方案
 
-找到问题 jar 包所在目录的除了 **.jar** 和 **.pom** 结尾之外的所有文件，重新编译即可。
+找到问题 jar 包所在目录, 删除除 **.jar** 和 **.pom** 结尾之外的所有文件，重新编译即可。
     
 
