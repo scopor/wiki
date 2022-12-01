@@ -158,7 +158,7 @@ function sidebarVientiane() {
             text: 'Java',
             collapsible: true,
             items: [
-                { text: 'Jar 本地存在 Maven 编译失败', link: '/java/jar-exist' },
+                { text: 'Jar 本地存在 Maven 编译失败', link: '/vientiane/jar-exist' },
             ]
         }
     ]
