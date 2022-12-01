@@ -34,7 +34,7 @@ export default defineConfig({
     transformHtml,
     buildEnd,
     ignoreDeadLinks: true,
-    lastUpdated: true,
+    lastUpdated: false,
     cleanUrls: 'without-subfolders',
 
     markdown: {
@@ -97,6 +97,7 @@ export default defineConfig({
             '/whisper/': sidebarWhisper(),
             '/photo/': sidebarPhoto(),
             '/java': sidebarJava(),
+            '/vientiane': sidebarVientiane(),
             '/reading': sidebarReading(),
         },
 
@@ -140,6 +141,25 @@ function nav() {
         },
         { text: '读书笔记', link: '/reading/重构', activeMatch: '/reading/' },
         { text: '鱼踪野趣', link: '/whisper/秦岭东坪沟草甸', activeMatch: '/whisper/' }
+    ]
+}
+
+function sidebarVientiane() {
+    return [
+        {
+            text: 'Linux',
+            collapsible: true,
+            items: [
+                { text: 'Linux 快捷键', link: '/vientiane/Linux快捷键' }
+            ]
+        },
+        {
+            text: 'Java',
+            collapsible: true,
+            items: [
+                { text: 'Jar 本地存在 Maven 编译失败', link: '/java/jar-exist' },
+            ]
+        }
     ]
 }
 
@@ -197,13 +217,6 @@ function sidebarJava() {
             collapsible: true,
             items: [
                 { text: '观察者模式', link: '/java/观察者模式' },
-            ]
-        },
-        {
-            text: '问题集锦',
-            collapsible: true,
-            items: [
-                { text: 'Jar 本地存在 Maven 编译失败', link: '/java/jar-exist' },
             ]
         }
     ]
