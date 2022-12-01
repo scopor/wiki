@@ -131,6 +131,7 @@ export default defineConfig({
 
 function nav() {
     return [
+        { text: '捉虫万象', link: '/vientiane/Linux快捷键', activeMatch: '/vientiane/' },
         {
             text: '笔记系列',
             items: [
