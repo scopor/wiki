@@ -160,6 +160,13 @@ function sidebarVientiane() {
             items: [
                 { text: 'Jar 本地存在 Maven 编译失败', link: '/vientiane/jar-exist' },
             ]
+        },
+        {
+            text: 'Git',
+            collapsible: true,
+            items: [
+                { text: 'Git 常用命令', link: '/vientiane/Git常用命令' },
+            ]
         }
     ]
 }
