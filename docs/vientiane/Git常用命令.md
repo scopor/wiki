@@ -99,3 +99,16 @@ git reset HEAD~1
 git revert HEAD
 ```
 
+## cherry-pick
+**cherry-pick** 可以将一些提交复制到当前所在的位置(HEAD)下面。
+```shell
+git cherry-pick <commit号>
+```
+
+## 交互式 rebase
+当你清楚你想要的提交记录的时候，使用 **cherry-pick** 再好不过，如果不清楚呢？ 就需要用到交互式的 **rebase**。
+交互式 **rebase** 指的是使用带参数 **--interactive** 的 **rebase** 命令, 简写为 **-i**，执行该命令会打开一个 UI 界面并列出将要被复制到目标分支的备选提交记录，它还会显示每个提交记录的哈希值和提交说明。
+```shell
+# 将最后提交的 4 条记录打开，重新调整
+git rebase -i HEAD~4
+```
