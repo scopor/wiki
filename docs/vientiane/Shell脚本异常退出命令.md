@@ -1,8 +1,29 @@
+---
+title: Shell 脚本异常退出命令
+head:
+- - meta
+  - property: og:title
+    content: Shell 脚本异常退出命令
+- - meta
+  - name: description
+    content: shell 脚本异常退出机制是指，当 shell 脚本在执行过程中发生错误时，脚本会自动退出，以避免出现更多的错误。
+- - meta
+  - name: keywords
+    content: set -e, set -u, set -o pipefail, trap
+- - meta
+  - property: og:description
+    content: shell 脚本异常退出机制是指，当 shell 脚本在执行过程中发生错误时，脚本会自动退出，以避免出现更多的错误。
+- - meta
+  - property: og:url
+    content: https://wiki.sanoon.me/vientiane/Linux%E5%BF%AB%E6%8D%B7%E9%94%AE
+- link
+  - rel: canonical
+    href: https://wiki.sanoon.me/vientiane/Linux%E5%BF%AB%E6%8D%B7%E9%94%AE
+---
 
+# **Shell** 脚本中常用的异常退出命令
 
-# **shell** 脚本中常用的异常退出命令
-
-编写 **shell** 脚本时，为了保证可靠性，可以使用命令 **set -e**，**set -u**，**set -o pipefail**，**trap** 来应对异常后的退出操作。
+**shell** 脚本异常退出机制是指: 当 **shell** 脚本在执行过程中发生错误时，脚本会自动退出，以避免出现更多的错误。脚本异常退出机制的实现方式有多种，其中最常用的是使用 **set -e**，**set -u**，**set -o pipefail**，**trap** 等命令。
 
 ## **set -e**
 当某条命令执行失败时，立即退出脚本，不再执行下面的命令。
