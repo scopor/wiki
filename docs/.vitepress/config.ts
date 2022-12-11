@@ -240,6 +240,7 @@ function sidebarReading() {
                 { text: '重构：改善既有代码设计', link: '/reading/重构' },
                 { text: 'CSS 学习笔记: 引入方式和选择器', link: '/reading/css' },
                 { text: 'CSS 学习笔记: 布局', link: '/reading/布局' },
+                { text: '代码整洁之道', link: '/reading/代码整洁之道' },
             ]
         }
     ]
