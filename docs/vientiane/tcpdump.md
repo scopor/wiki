@@ -140,9 +140,7 @@ tcpdump -i eth0 arp
 nohup tcpdump tcp -i eth0 -s 0 -c 100 and dst net 192.168.1.2 -w capture.cap &
 ```
     
-    
-::: TIP
-
+::: tip
 nohup 和 &：两者配合，可以让  tcpdump 抓包进程在后台执行    
 
 tcp：监听的协议    
@@ -151,10 +149,9 @@ tcp：监听的协议
 
 -s：0，代表不限制包的大小，默认长度 68 字节    
 
--c：制定抓取包的数量
+-c：制定抓取包的数量    
 
--w：制定保存的文件
-
+-w：制定保存的文件    
 :::
 
     
