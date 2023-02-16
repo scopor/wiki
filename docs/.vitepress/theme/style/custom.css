@@ -152,3 +152,7 @@ img.VPImage.logo {
     -webkit-box-flex: 0;
     flex: 0;
 }
+
+.custom-block .tip {
+    background-color: #FFFFFF;
+}
