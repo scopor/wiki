@@ -11,7 +11,7 @@
     --vp-c-green-lighter: #1ad4e9;
     --vp-c-green-dark: #1ad4e9;
     --vp-c-green-darker: #1ad4e9;
-    --vp-c-green-dimm-1: rgb(26, 212, 233);
+    --vp-c-green-dimm-1: #ffffff;
     --vp-c-green-dimm-2: rgb(26, 212, 233);
 }
 
@@ -153,6 +153,3 @@ img.VPImage.logo {
     flex: 0;
 }
 
-.custom-block .tip {
-    background-color: #FFFFFF;
-}
