@@ -139,7 +139,8 @@ tcpdump -i eth0 arp
 ```
 nohup tcpdump tcp -i eth0 -s 0 -c 100 and dst net 192.168.1.2 -w capture.cap &
 ```
-
+    
+    
 ::: TIP
 
 nohup 和 &：两者配合，可以让  tcpdump 抓包进程在后台执行    
@@ -156,7 +157,7 @@ tcp：监听的协议
 
 :::
 
-​    
+    
+    
 
-​    
 
