@@ -149,7 +149,7 @@ function sidebarVientiane() {
     return [
         {
             text: 'Linux',
-            collapsible: true,
+            collapsed: true,
             items: [
                 { text: 'Linux 快捷键', link: '/vientiane/Linux快捷键' },
                 { text: 'Shell 脚本异常退出命令', link: '/vientiane/Shell脚本异常退出命令'},
@@ -159,14 +159,14 @@ function sidebarVientiane() {
         },
         {
             text: 'Java',
-            collapsible: true,
+            collapsed: true,
             items: [
                 { text: 'Jar 本地存在 Maven 编译失败', link: '/vientiane/jar-exist' },
             ]
         },
         {
             text: 'Git',
-            collapsible: true,
+            collapsed: true,
             items: [
                 { text: 'Git 常用命令', link: '/vientiane/Git常用命令' },
             ]
@@ -199,7 +199,7 @@ function sidebarGo() {
         },
         {
             text: '进阶部分',
-            collapsible: true,
+            collapsed: true,
             items: [
                 { text: '结构体', link: '/go/进阶部分/结构体' },
                 { text: '接口', link: '/go/进阶部分/接口' },
@@ -213,7 +213,7 @@ function sidebarPython() {
     return [
         {
             text: 'Python',
-            collapsible: true,
+            collapsed: true,
             items: [
                 { text: 'Introduction', link: '/python/index' },
             ]
@@ -225,7 +225,7 @@ function sidebarJava() {
     return [
         {
             text: '设计模式',
-            collapsible: true,
+            collapsed: true,
             items: [
                 { text: '观察者模式', link: '/java/观察者模式' },
             ]
@@ -237,7 +237,7 @@ function sidebarReading() {
     return [
         {
             text: '技术书籍',
-            collapsible: true,
+            collapsed: true,
             items: [
                 { text: '重构：改善既有代码设计', link: '/reading/重构' },
                 { text: 'CSS: 引入方式和选择器', link: '/reading/css' },
@@ -252,7 +252,7 @@ function sidebarPhoto() {
     return [
         {
             text: 'Photo',
-            collapsible: true,
+            collapsed: true,
             items: [
                 { text: '朱雀森林公园', link: '/photo/index' },
             ]
@@ -264,14 +264,14 @@ function sidebarWhisper() {
     return [
         {
             text: '秦岭足迹',
-            collapsible: true,
+            collapsed: true,
             items: [
                 { text: '秦岭东坪沟草甸', link: '/whisper/秦岭东坪沟草甸' },
             ]
         },
         {
             text: '旅行足迹',
-            collapsible: true,
+            collapsed: true,
             items: [
                 { text: '青海之行', link: '/whisper/青海之行' },
             ]
