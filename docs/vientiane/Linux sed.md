@@ -65,11 +65,11 @@ sed -i 's/oldValue/newValue/g' file
 echo "ababababab" | sed 's/ab/AB/3g'
 ```
 
-## 定界符：/
+## 定界符
 
-以上命令均使用 **/** 作为定界符，也可以使用其他任意的定界符，比如 **:**、 **|**等
+以上命令均使用 **/** 作为定界符，也可以使用其他任意的定界符，比如 **:**, **|** 等
 
-```shell
+```bash
 echo "abababab" | sed 's:ab:AB:g'
 echo "abababab" | sed 's|ab|AB|g'
 ```
