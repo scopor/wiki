@@ -154,6 +154,7 @@ function sidebarVientiane() {
                 { text: 'Linux 快捷键', link: '/vientiane/Linux快捷键' },
                 { text: 'Shell 脚本异常退出命令', link: '/vientiane/Shell脚本异常退出命令'},
                 { text: 'Linux sed 命令', link: '/vientiane/Linux sed' },
+                { text: 'tcpdump', link: '/vientiane/tcpdump' },
             ]
         },
         {
