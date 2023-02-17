@@ -108,7 +108,7 @@ tcpdump tcp port 23 and host 192.168.1.2
 
 ## 监听指定端口的数据包
 
-```
+```shell
 tcpdump port 22
 tcpdump src port 22
 tcpdump dst port 22
@@ -118,7 +118,7 @@ tcpdump -i eth1 dst port 6758
 
 ## 监听指定网段的数据包
 
-```
+```shell
 tcpdump -i eth1 net 192.168.1
 tcpdump -i eth1 src net 192.168.1
 tcpdump -i eth1 dst net 192.168.1
@@ -126,7 +126,7 @@ tcpdump -i eth1 dst net 192.168.1
 
 ## 监听指定协议的数据包
 
-```
+```shell
 tcpdump -i eth0 icmp
 tcpdump -i eth0 ip
 tcpdump -i eth0 tcp
@@ -136,7 +136,7 @@ tcpdump -i eth0 arp
 
 ## 后台监听
 
-```
+```shell
 nohup tcpdump tcp -i eth0 -s 0 -c 100 and dst net 192.168.1.2 -w capture.cap &
 ```
     
