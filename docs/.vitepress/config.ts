@@ -156,7 +156,8 @@ function sidebarVientiane() {
                 { text: 'Shell 脚本异常退出命令', link: '/vientiane/Shell脚本异常退出命令'},
                 { text: 'Linux sed 命令', link: '/vientiane/Linux sed' },
                 { text: 'Linux tcpdump 命令', link: '/vientiane/tcpdump' },
-                { text: 'Linux scp 命令', link: '/vientiane/scp' }
+                { text: 'Linux scp 命令', link: '/vientiane/scp' },
+                { text: 'Linux crontab 命令', link: '/vientiane/crontab' }
             ]
         },
         {
