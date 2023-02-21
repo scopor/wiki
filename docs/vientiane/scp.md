@@ -71,10 +71,12 @@ scp /path/to/local/location username2@remote2:/path/to/remote/location
 scp username1@remote1:/path/to/remote/file username2@remote2:/path/to/remote/location
 ```
     
-:::tip
+::: tip
+
 **scp** 命令传输的文件和目录权限可能会被修改，取决于目标计算机上的 **umask** 设置。     
 如果目标文件已存在，则 **scp** 命令将覆盖该文件而不提示。     
 如果目标文件夹不存在，**scp** 命令将尝试创建该文件夹，但它不会自动创建目标目录的层次结构。     
 在使用 **scp** 命令时，需要确保网络连接是安全的，以避免敏感信息泄露。建议使用 **SSH** 连接。     
+
 :::    
     
