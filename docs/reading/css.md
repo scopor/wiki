@@ -17,7 +17,7 @@ head:
   - property: og:url
     content: https://wiki.sanoon.me/reading/css
 - - meta
-  - property: referrer
+  - property: referer
     content: no-referrer
 - - link
   - rel: canonical
