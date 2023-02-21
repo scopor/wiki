@@ -153,6 +153,6 @@ img.VPImage.logo {
     flex: 0;
 }
 
-.tip .custom-block {
+.custom-block .tip {
     background-color: transparent;
 }
