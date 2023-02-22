@@ -15,13 +15,13 @@ head:
     content: CSS,引入方式,ID选择器,类选择器,元素选择器,伪类选择器,属性选择器,选择器优先级
 - - meta
   - property: og:url
-    content: https://wiki.sanoon.me/reading/css
+    content: https://sanoon.me/reading/css
 - - meta
   - property: referer
     content: no-referrer
 - - link
   - rel: canonical
-    href: https://wiki.sanoon.me/reading/css
+    href: https://sanoon.me/reading/css
 ---
 
 # CSS 学习笔记：引入方式和选择器

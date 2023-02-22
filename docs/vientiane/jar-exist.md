@@ -15,10 +15,10 @@ head:
     content: jar 本地仓库存在, maven 编译失败 
 - - meta
   - property: og:url
-    content: https://wiki.sanoon.me/vientiane/jar-exist
+    content: https://sanoon.me/vientiane/jar-exist
 - - link
   - rel: canonical
-    href: https://wiki.sanoon.me/vientiane/jar-exist
+    href: https://sanoon.me/vientiane/jar-exist
 ---
 
 

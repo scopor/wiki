@@ -15,10 +15,10 @@ head:
     content: Git 常用命令, commit, merge, branch, rebase, HEAD
 - - meta
   - property: og:url
-    content: https://wiki.sanoon.me/vientiane/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4
+    content: https://sanoon.me/vientiane/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4
 - - link
   - rel: canonical
-    href: https://wiki.sanoon.me/vientiane/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4
+    href: https://sanoon.me/vientiane/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4
 ---
 
 # Git 常用命令

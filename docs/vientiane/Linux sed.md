@@ -15,10 +15,10 @@ head:
     content: Linux sed 命令，修改文件内容.
 - - meta
   - property: og:url
-    content: https://wiki.sanoon.me/vientiane/Linux%20sed
+    content: https://sanoon.me/vientiane/Linux%20sed
 - - link
   - rel: canonical
-    href: https://wiki.sanoon.me/vientiane/Linux%20sed
+    href: https://sanoon.me/vientiane/Linux%20sed
 ---
 
 # sed 命令是什么
