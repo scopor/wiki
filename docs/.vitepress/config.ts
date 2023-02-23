@@ -123,8 +123,8 @@ export default defineConfig({
 
         algolia: {
             appId: '3A6QJ8G3R5',
-            // apiKey: '1055507df36613992a79998675cee0cf',
-            apiKey: '40d74994cabeb14270e5f873e5ed5fb3',
+            apiKey: '33921eeee5957cab06814a4db45ff6af',
+            // apiKey: '40d74994cabeb14270e5f873e5ed5fb3',
             indexName: 'sanoon'
         },
     }
