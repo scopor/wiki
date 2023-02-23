@@ -117,39 +117,39 @@ Class B {
 * 回滚 `rollbackFor`
 * 不会滚 `noRollbackFor`
 
-### 事务传播行为
+## 事务传播行为
 
 > 事务传播行为，主要是为了解决业务方法之间调用的事务性问题，配置不同事务传播行为，方法有可能会继续使用当前已有的事务，也可能新开一个事务，或者使事务失效。事务传播行为主要以下几种：
 
-#### Propagation.REQUIRED
+### Propagation.REQUIRED
 > 默认事务。当前存在事务，则加入该事务；当前不存在事务，则创建新事务。假设 `Demo` 、A、B 三个类的 doBiz 都是用默认事务传播行为，那么 A、B 类中的方法均使用 Demo 类的事务传播行为。
   * Demo 类的方法未配置事务，A、B 配置REQUIRED， 各自开启事务，A、B互不干扰，某一个回滚不影响另一个
   * Demo 类的方法配置了事务 REQUIRED，A、B 配置REQUIRED， Demo、A、B 任何一个异常，三个均回滚
 
-#### Propagation.SUPPORTS
+### Propagation.SUPPORTS
 > 该事务传播行为是指当前存在事务，则加入该事务；当前不存在事务，则以非事务方式运行。假设 B 类的 doBiz 方法使用 SUPPORTS 事务传播行为，那么 Demo 类 doBiz 使用默认注解时， B 类的 doBiz 方法会加入 Demo 类的 doBiz 方法的事务中，如果 Demo 类的 doBiz 没有使用任何 @Transactional 注解时，B 类中的 doBiz 方法则不使用事务。
   * Demo 类的方法未配置事务，A、B 配置了SUPPORTS， 都以非事务执行，A、B互不干扰，无法回滚
   * Demo 类的方法配置了事务 REQUIRED，A、B 配置了SUPPORTS，都加入该事务执行，Demo、A、B 任何一个异常，三个均回滚
 
-#### Propagation.MANDATORY
+### Propagation.MANDATORY
 > 如果当前存在事务，则加入该事务；如果当前不存在事务，则抛出异常。假设 B 类的 doBiz 方法使用 MANDATORY 事务传播行为，那么 Demo 类 doBiz 使用默认注解时， B 类的 doBiz 方法会加入 Demo 类的 doBiz 方法的事务中，如果 Demo 类的 doBiz 没有使用任何 @Transactional 注解时，执行 B 类中的 doBiz 方法时抛出异常。
   * Demo 类的方法未配置事务，A、B 配置MANDATORY，A、B 执行时抛出异常
   * Demo 类的方法配置了事务 REQUIRED，A、B 配置了MANDATORY，都加入该事务执行，Demo、A、B 任何一个异常，三个均回滚
 
-#### Propagation.REQUIRES_NEW
+### Propagation.REQUIRES_NEW
 > 重新创建一个新的事务，如果当前存在事务，暂停当前的事务。假设 A 、B 类中的 doBiz 方法使用了 REQUIRES_NEW 事务传播行为，那么不管 Demo 类存在事务，则在执行 A、B 类的 doBiz 方法时暂停 Demo 类的 doBiz 方法的事务，执行 A、B 类的 doBiz 方法时都会各自新建一个事务。
   * Demo 类的方法未配置事务，A、B 配置REQUIRES_NEW，A、B 新建事务执行，互不干扰，各自异常各自回滚
   * Demo 类的方法配置了事务 REQUIRED，A、B 配置REQUIRES_NEW，A、B 新建事务执行，互不干扰，Demo、A、B 各自异常各自回滚
 
-#### Propagation.NOT_SUPPORTED
+### Propagation.NOT_SUPPORTED
 > 以非事务的方式运行，如果当前存在事务，暂停当前的事务。假设 A 、B 类中的 doBiz 方法使用了 NOT_SUPPORTED 事务传播行为，那么不管 Demo 类存在事务，则在执行 A、B 类的 doBiz 方法时都会暂停 Demo 类的 doBiz 方法的事务， 并以非事务的方式执行 A、B 类的 doBiz 方法。
   * 不管 Demo 类的方法是否配置了事务，A、B配置了NOT_SUPPORTED ，A、B都以非事务方式执行，无法回滚
 
-#### Propagation.NEVER
+### Propagation.NEVER
 > 以非事务的方式运行，如果当前存在事务，则抛出异常。假设 A 、B 类中的 doBiz 方法使用了 NEVER事务传播行为，那么 Demo 类存在事务，则在执行 A、B 类的 doBiz 方法时会抛出异常。如果 Demo 类不存在事务，那么以非事务方式执行 A、B 类的 doBiz 方法。
   * Demo 类的方法配置了事务REQUIRED，A、B配置了NEVER，A、B方法执行时抛出异常
 
-#### Propagation.NESTED 
+### Propagation.NESTED 
 > 如果当前存在事务，则创建新的事务作为当前事务的嵌套事务来运行，如果当前没有事务，则等价于默认事务REQUIRED。
   * Demo 类的方法配置了事务REQUIRED， A、B配置了NESTED， A、B方法执行时，会开启自己的事务，且只回滚自己的事务，不影响 Demo 类方法的事务和其他子事务，即 A 方法回滚，不会造成 Demo 和 B 的方法回滚。
 
@@ -177,7 +177,7 @@ Class B {
 }
 ```
 
-### 事务隔离级别
+## 事务隔离级别
 
 > Spring 定义了五个事务隔离级别，分别是：
 
@@ -226,7 +226,9 @@ Class B {
 * 事务传播机制配置为SUPPORTS、NOT_SUPPORTED、NEVER时，前两个会以非事务方式运行，NEVER则直接抛出异常
 
 
-[^1]: 脏读，是指事务 2 读取了事务 1 还未提交的内容 A，后面事务  1 又对内容作了撤销，造成事务  2 拿到的是错误的。
-[^2]: 幻读，是指在事务执行过程中，当两个完全相同的查询语句执行得到不同的结果集。是*不可重复读*的一种特殊场景：当事务 1 两次执行 **SELECT ... WHERE** 检索一定范围内数据的操作中间，事务 2 在这个表中创建了(如 INSERT、DELETE )了一行新数据，这条新数据正好满足事务 1 的 **WHERE** 子句。
-[^3]: 不可重复读：是指在一次事务中，当一行数据获取两遍得到不同的结果表示发生了不可重复读，和幻读的区别是，不可重复读的侧重点在数据修改，而幻读是侧重的增删。
+[^1]: 脏读，是指事务 2 读取了事务 1 还未提交的内容 A，后面事务  1 又对内容作了撤销，造成事务  2 拿到的是错误的。     
+
+[^2]: 幻读，是指在事务执行过程中，当两个完全相同的查询语句执行得到不同的结果集。是*不可重复读*的一种特殊场景：当事务 1 两次执行 **SELECT ... WHERE** 检索一定范围内数据的操作中间，事务 2 在这个表中创建了(如 INSERT、DELETE )了一行新数据，这条新数据正好满足事务 1 的 **WHERE** 子句。     
+
+[^3]: 不可重复读：是指在一次事务中，当一行数据获取两遍得到不同的结果表示发生了不可重复读，和幻读的区别是，不可重复读的侧重点在数据修改，而幻读是侧重的增删。     
     
