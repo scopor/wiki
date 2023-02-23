@@ -6,13 +6,13 @@ head:
     content: Spring 事务详解
 - - meta
   - name: description
-    content: 最近在开发过程中遇到了有个异常场景，数据库操作未回滚，查看代码已经标了`@Transactional`注解，查阅资料发现该注解默认只能用于运行时异常， 对于受检异常(Unchecked Exception)无效，除非使用其 `rollbackFor` 属性指定受检异常才有效，经此发现对于 `Spring` 事务理解的还不够透彻，再次学习之，记录在此。
+    content: 最近在开发过程中遇到了有个异常场景，数据库操作未回滚，查看代码已经标了 `@Transactional` 注解，查阅资料发现该注解默认只能用于运行时异常， 对于受检异常(Unchecked Exception)无效，除非使用其 `rollbackFor` 属性指定受检异常才有效，经此发现对于 `Spring` 事务理解的还不够透彻，再次学习之，记录在此。
 - - meta
   - name: keywords
     content: Spring事务、传播机制、隔离级别、@Transactional失效
 - - meta
   - property: og:description
-    content: 最近在开发过程中遇到了有个异常场景，数据库操作未回滚，查看代码已经标了`@Transactional`注解，查阅资料发现该注解默认只能用于运行时异常， 对于受检异常(Unchecked Exception)无效，除非使用其 `rollbackFor` 属性指定受检异常才有效，经此发现对于 `Spring` 事务理解的还不够透彻，再次学习之，记录在此。
+    content: 最近在开发过程中遇到了有个异常场景，数据库操作未回滚，查看代码已经标了 `@Transactional` 注解，查阅资料发现该注解默认只能用于运行时异常， 对于受检异常(Unchecked Exception)无效，除非使用其 `rollbackFor` 属性指定受检异常才有效，经此发现对于 `Spring` 事务理解的还不够透彻，再次学习之，记录在此。
 - - meta
   - property: og:url
     content: https://sanoon.me/vientiane/Spring%20%E4%BA%8B%E5%8A%A1%E8%AF%A6%E8%A7%A3
@@ -107,7 +107,6 @@ Class B {
 }
 ```
 
-
 ## @Transactional 注解的属性
 
 * 事务传播行为 `propagtion`
@@ -125,47 +124,47 @@ Class B {
 
 默认事务。当前存在事务，则加入该事务；当前不存在事务，则创建新事务。假设 `Demo` 、A、B 三个类的 doBiz 都是用默认事务传播行为，那么 A、B 类中的方法均使用 Demo 类的事务传播行为。
 
-* Demo 类的方法未配置事务，A、B 配置REQUIRED， 各自开启事务，A、B互不干扰，某一个回滚不影响另一个
-* Demo 类的方法配置了事务 REQUIRED，A、B 配置REQUIRED， Demo、A、B 任何一个异常，三个均回滚
+1、Demo 类的方法未配置事务，A、B 配置REQUIRED， 各自开启事务，A、B互不干扰，某一个回滚不影响另一个
+2、Demo 类的方法配置了事务 REQUIRED，A、B 配置REQUIRED， Demo、A、B 任何一个异常，三个均回滚
 
 ### Propagation.SUPPORTS
 
 该事务传播行为是指当前存在事务，则加入该事务；当前不存在事务，则以非事务方式运行。假设 B 类的 doBiz 方法使用 SUPPORTS 事务传播行为，那么 Demo 类 doBiz 使用默认注解时， B 类的 doBiz 方法会加入 Demo 类的 doBiz 方法的事务中，如果 Demo 类的 doBiz 没有使用任何 @Transactional 注解时，B 类中的 doBiz 方法则不使用事务。
 
-* Demo 类的方法未配置事务，A、B 配置了SUPPORTS， 都以非事务执行，A、B互不干扰，无法回滚
-* Demo 类的方法配置了事务 REQUIRED，A、B 配置了SUPPORTS，都加入该事务执行，Demo、A、B 任何一个异常，三个均回滚
+1、Demo 类的方法未配置事务，A、B 配置了SUPPORTS， 都以非事务执行，A、B互不干扰，无法回滚
+2、Demo 类的方法配置了事务 REQUIRED，A、B 配置了SUPPORTS，都加入该事务执行，Demo、A、B 任何一个异常，三个均回滚
 
 ### Propagation.MANDATORY
 
 如果当前存在事务，则加入该事务；如果当前不存在事务，则抛出异常。假设 B 类的 doBiz 方法使用 MANDATORY 事务传播行为，那么 Demo 类 doBiz 使用默认注解时， B 类的 doBiz 方法会加入 Demo 类的 doBiz 方法的事务中，如果 Demo 类的 doBiz 没有使用任何 @Transactional 注解时，执行 B 类中的 doBiz 方法时抛出异常。
 
-* Demo 类的方法未配置事务，A、B 配置MANDATORY，A、B 执行时抛出异常
-* Demo 类的方法配置了事务 REQUIRED，A、B 配置了MANDATORY，都加入该事务执行，Demo、A、B 任何一个异常，三个均回滚
+1、Demo 类的方法未配置事务，A、B 配置MANDATORY，A、B 执行时抛出异常
+2、Demo 类的方法配置了事务 REQUIRED，A、B 配置了MANDATORY，都加入该事务执行，Demo、A、B 任何一个异常，三个均回滚
 
 ### Propagation.REQUIRES_NEW
 
 重新创建一个新的事务，如果当前存在事务，暂停当前的事务。假设 A 、B 类中的 doBiz 方法使用了 REQUIRES_NEW 事务传播行为，那么不管 Demo 类存在事务，则在执行 A、B 类的 doBiz 方法时暂停 Demo 类的 doBiz 方法的事务，执行 A、B 类的 doBiz 方法时都会各自新建一个事务。
 
-* Demo 类的方法未配置事务，A、B 配置REQUIRES_NEW，A、B 新建事务执行，互不干扰，各自异常各自回滚
-* Demo 类的方法配置了事务 REQUIRED，A、B 配置REQUIRES_NEW，A、B 新建事务执行，互不干扰，Demo、A、B 各自异常各自回滚
+1、Demo 类的方法未配置事务，A、B 配置REQUIRES_NEW，A、B 新建事务执行，互不干扰，各自异常各自回滚
+2、Demo 类的方法配置了事务 REQUIRED，A、B 配置REQUIRES_NEW，A、B 新建事务执行，互不干扰，Demo、A、B 各自异常各自回滚
 
 ### Propagation.NOT_SUPPORTED
 
 以非事务的方式运行，如果当前存在事务，暂停当前的事务。假设 A 、B 类中的 doBiz 方法使用了 NOT_SUPPORTED 事务传播行为，那么不管 Demo 类存在事务，则在执行 A、B 类的 doBiz 方法时都会暂停 Demo 类的 doBiz 方法的事务， 并以非事务的方式执行 A、B 类的 doBiz 方法。
 
-* 不管 Demo 类的方法是否配置了事务，A、B配置了NOT_SUPPORTED ，A、B都以非事务方式执行，无法回滚
+1、不管 Demo 类的方法是否配置了事务，A、B配置了NOT_SUPPORTED ，A、B都以非事务方式执行，无法回滚
 
 ### Propagation.NEVER
 
 以非事务的方式运行，如果当前存在事务，则抛出异常。假设 A 、B 类中的 doBiz 方法使用了 NEVER事务传播行为，那么 Demo 类存在事务，则在执行 A、B 类的 doBiz 方法时会抛出异常。如果 Demo 类不存在事务，那么以非事务方式执行 A、B 类的 doBiz 方法。
 
-* Demo 类的方法配置了事务REQUIRED，A、B配置了NEVER，A、B方法执行时抛出异常
+1、Demo 类的方法配置了事务REQUIRED，A、B配置了NEVER，A、B方法执行时抛出异常
 
 ### Propagation.NESTED 
 
 如果当前存在事务，则创建新的事务作为当前事务的嵌套事务来运行，如果当前没有事务，则等价于默认事务REQUIRED。
 
-* Demo 类的方法配置了事务REQUIRED， A、B配置了NESTED， A、B方法执行时，会开启自己的事务，且只回滚自己的事务，不影响 Demo 类方法的事务和其他子事务，即 A 方法回滚，不会造成 Demo 和 B 的方法回滚。
+1、Demo 类的方法配置了事务REQUIRED， A、B配置了NESTED， A、B方法执行时，会开启自己的事务，且只回滚自己的事务，不影响 Demo 类方法的事务和其他子事务，即 A 方法回滚，不会造成 Demo 和 B 的方法回滚。
 
 ```java
 public class Demo {
@@ -217,8 +216,8 @@ Spring 定义了五个事务隔离级别，分别是：
 
 读操作为什么要配置事务只读属性？你一定也会有这样的疑问，当你执行一组查询语句时，可能会需要设置只读属性。
 
-* 如果你只执行一条查询语句，那么确实没必要配置事务，数据库默认支持读一致性
-* 如果你一次执行若干条语句，例如统计、报表之类的查询，此背景下多条 SQL 必须保证整体的读一致性，否则在查询不同的语句之间，另一个事务插入一条数据，那么会造成汇总和明细的不一致，此时就需要配置事务的只读属性。
+1、如果你只执行一条查询语句，那么确实没必要配置事务，数据库默认支持读一致性
+2、如果你一次执行若干条语句，例如统计、报表之类的查询，此背景下多条 SQL 必须保证整体的读一致性，否则在查询不同的语句之间，另一个事务插入一条数据，那么会造成汇总和明细的不一致，此时就需要配置事务的只读属性。
 
 ### 回滚属性
 
@@ -227,7 +226,6 @@ Spring 定义了五个事务隔离级别，分别是：
 ### 不回滚属性
 
 使用该属性可以指定的多个异常类型在抛出时，不回滚事务。
-
 
 ## 使用事务注解 `@Transactional` 时常见的失效行为
 
@@ -239,12 +237,11 @@ Spring 定义了五个事务隔离级别，分别是：
 * 抛出的异常不在 rollbackFor 指定的异常中
 * 事务传播机制配置为SUPPORTS、NOT_SUPPORTED、NEVER时，前两个会以非事务方式运行，NEVER则直接抛出异常
 
-
 :::tip
 
-[1]: 脏读，是指事务 `2` 读取了事务 `1` 还未提交的内容 `A`，后面事务  `1` 又对内容作了撤销，造成事务 `2` 拿到的是错误的。     
+[1]: 脏读，是指事务 **2** 读取了事务 **1** 还未提交的内容 **A**，后面事务  **1** 又对内容作了撤销，造成事务 **2** 拿到的是错误的。
 
-[2]: 幻读，是指在事务执行过程中，当两个完全相同的查询语句执行得到不同的结果集。是 `不可重复读` 的一种特殊场景: 当事务 `1` 两次执行 `SELECT ... WHERE` 检索一定范围内数据的操作中间，事务 `2` 在这个表中创建了(如 `INSERT`、`DELETE` )了一行新数据，这条新数据正好满足事务 `1` 的 `WHERE` 子句。    
+[2]: 幻读，是指在事务执行过程中，当两个完全相同的查询语句执行得到不同的结果集。是 **不可重复读** 的一种特殊场景 —— 当事务 **1** 两次执行 **SELECT...WHERE** 检索一定范围内数据的操作中间，事务 **2** 在这个表中创建了(如 **INSERT**、**DELETE** )了一行新数据，这条新数据正好满足事务 **1** 的 **WHERE** 子句。
 
 [3]: 不可重复读：是指在一次事务中，当一行数据获取两遍得到不同的结果表示发生了不可重复读，和幻读的区别是，不可重复读的侧重点在数据修改，而幻读是侧重的增删。 
 
