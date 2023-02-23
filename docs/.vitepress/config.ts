@@ -160,7 +160,8 @@ function sidebarVientiane() {
                 { text: 'Linux tcpdump 命令', link: '/vientiane/tcpdump' },
                 { text: 'Linux scp 命令', link: '/vientiane/scp' },
                 { text: 'Linux crontab 命令', link: '/vientiane/crontab' },
-                { text: 'Mac sips 命令', link: '/vientiane/sips' }
+                { text: 'Mac sips 命令', link: '/vientiane/sips' },
+                { text: '查询进程启动时间', link: '/vientiane/查询进程启动时间' }
             ]
         },
         {
