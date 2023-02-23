@@ -159,7 +159,8 @@ function sidebarVientiane() {
                 { text: 'Linux sed 命令', link: '/vientiane/Linux sed' },
                 { text: 'Linux tcpdump 命令', link: '/vientiane/tcpdump' },
                 { text: 'Linux scp 命令', link: '/vientiane/scp' },
-                { text: 'Linux crontab 命令', link: '/vientiane/crontab' }
+                { text: 'Linux crontab 命令', link: '/vientiane/crontab' },
+                { text: 'Mac sips 命令', link: '/vientiane/sips' }
             ]
         },
         {
@@ -167,6 +168,8 @@ function sidebarVientiane() {
             collapsed: true,
             items: [
                 { text: 'Jar 本地存在 Maven 编译失败', link: '/vientiane/jar-exist' },
+                { text: 'Spring 事务详解', link: '/vientiane/Spring 事务详解' },
+                { text: 'IDEA 加载大文件.md', link: '/vientiane/IDEA 加载大文件' },
             ]
         },
         {
