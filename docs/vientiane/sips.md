@@ -9,7 +9,7 @@ head:
     content: sips 命令是 Mac 自带的一款图片处理的命令行工具，可以根据需要对图片进行裁剪，修改尺寸，翻转以及查看Meta信息等
 - - meta
   - name: keywords
-    content: scp
+    content: sips
 - - meta
   - property: og:description
     content: sips 命令是 Mac 自带的一款图片处理的命令行工具，可以根据需要对图片进行裁剪，修改尺寸，翻转以及查看Meta信息等
