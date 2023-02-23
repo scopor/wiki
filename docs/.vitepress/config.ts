@@ -169,7 +169,7 @@ function sidebarVientiane() {
             items: [
                 { text: 'Jar 本地存在 Maven 编译失败', link: '/vientiane/jar-exist' },
                 { text: 'Spring 事务详解', link: '/vientiane/Spring 事务详解' },
-                { text: 'IDEA 加载大文件.md', link: '/vientiane/IDEA 加载大文件' },
+                { text: 'IDEA 加载大文件', link: '/vientiane/IDEA 加载大文件' },
             ]
         },
         {
