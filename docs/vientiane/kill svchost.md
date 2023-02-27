@@ -36,6 +36,8 @@ tasklist /svc
 
 ## 杀死 MessageManagerService 对应的 svchost 进程
 
+复制以下代码到 文本软件，保存为 **.bat** 格式文件，双击执行, 世界终于安静了。
+
 ```shell
 @echo off
 setlocal
@@ -51,5 +53,6 @@ if %errorlevel% equ 0 (
 timeout /t 10 /nobreak >nul
 goto loop
 ```
+    
     
 
