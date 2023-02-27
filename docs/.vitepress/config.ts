@@ -184,7 +184,7 @@ function sidebarVientiane() {
             text: 'Other',
             collapsed: true,
             items: [
-                { text: 'Message Manager Service 占用 CPU 高', link: '/vientiane/kill%40svchost' },
+                { text: 'Windows CPU 高', link: '/vientiane/kill%20svchost' },
             ]
         }
     ]
