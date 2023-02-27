@@ -179,6 +179,13 @@ function sidebarVientiane() {
             items: [
                 { text: 'Git 常用命令', link: '/vientiane/Git常用命令' },
             ]
+        },
+        {
+            text: 'Other',
+            collapsed: true,
+            items: [
+                { text: 'Message Manager Service 占用 CPU 高', link: '/vientiane/kill%40svchost' },
+            ]
         }
     ]
 }
