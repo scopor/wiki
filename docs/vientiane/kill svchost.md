@@ -1,9 +1,9 @@
 ---
-title: 杀死 MessageManagerService 进程
+title: Windows CPU 高
 head:
 - - meta
   - property: og:title
-    content: 杀死 MessageManagerService 进程
+    content: Windows CPU 高
 - - meta
   - name: description
     content: Windows 系统卡顿，查看任务管理器发现进程 服务主机 Message Manager Service 导致 CPU 高，电源使用情况高，风扇狂转，噪音大，尝试结束该进程发现过一会儿后又自动拉起了，遂写了脚本，定时执行杀死它。
@@ -34,7 +34,7 @@ Windows 系统卡顿，查看任务管理器发现进程 服务主机: Message M
 tasklist /svc
 ```
 
-## 杀死 MessageManagerService 的 svchost 进程
+## 杀死 MessageManagerService 对应的 svchost 进程
 
 ```shell
 @echo off
