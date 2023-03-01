@@ -18,7 +18,7 @@ head:
     content: https://sanoon.me/vientiane/scp
 - - link
   - rel: canonical
-    href: https://sanoon.me/scp
+    href: https://sanoon.me/vientiane/scp
 ---
 
 # scp
