@@ -15,10 +15,10 @@ head:
     content: scp 命令是用于在不同计算机之间复制文件和目录的命令。
 - - meta
   - property: og:url
-    content: /vientiane/scp
+    content: https://sanoon.me/vientiane/scp
 - - link
   - rel: canonical
-    href: /vientiane/scp
+    href: https://sanoon.me/scp
 ---
 
 # scp
