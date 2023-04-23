@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as l,R as n}from"./chunks/framework.5dd80646.js";const h=JSON.parse('{"title":"常用正则表达式收集","description":"","frontmatter":{},"headers":[],"relativePath":"vientiane/常用正则表达式.md"}'),e={name:"vientiane/常用正则表达式.md"},o=n("",13),t=[o];function p(c,r,i,d,y,C){return l(),s("div",null,t)}const _=a(e,[["render",p]]);export{h as __pageData,_ as default};
