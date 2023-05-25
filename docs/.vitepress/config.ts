@@ -4,7 +4,7 @@ import customAttrs  from 'markdown-it-custom-attrs';
 
 export const head: HeadConfig[] = [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'author', content: 'sanoon' }],
+    ['meta', { name: 'author', content: 'sooloe' }],
     ['meta', { name: 'keywords', content: '鱼野, Go, Java, Python' }],
 
     ['meta', { name: 'HandheldFriendly', content: 'True' }],
