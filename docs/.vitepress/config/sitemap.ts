@@ -3,7 +3,7 @@ import { resolve } from 'node:path';
 import { SitemapStream } from 'sitemap';
 
 const links = [];
-const hostname = 'https://sanoon.me/';
+const hostname = 'https://sooloe.com/';
 
 export const transformHtml = (_, id, { pageData }) => {
     if (!/[\\/]404\.html$/.test(id)) {
