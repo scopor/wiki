@@ -5,7 +5,7 @@ import customAttrs  from 'markdown-it-custom-attrs';
 export const head: HeadConfig[] = [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'author', content: 'sooloe' }],
-    ['meta', { name: 'keywords', content: '鱼野, Go, Java, Python' }],
+    ['meta', { name: 'keywords', content: 'Sooloe, Go, Java, Python' }],
 
     ['meta', { name: 'HandheldFriendly', content: 'True' }],
     ['meta', { name: 'MobileOptimized', content: '320' }],
@@ -14,11 +14,11 @@ export const head: HeadConfig[] = [
 
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
-    ['meta', { property: 'og:title', content: '鱼野的数字花园' }],
-    ['meta', { property: 'og:description', content: '鱼野的数字花园, 个人知识管理，Go, Java, Python学习笔记，读书笔记，生活随笔。' }],
-    ['meta', { property: 'og:site', content: 'https://sanoon.me' }],
-    ['meta', { property: 'og:site_name', content: '鱼野的数字花园' }],
-    ['meta', { property: 'og:image', content: '鱼野的数字花园' }],
+    ['meta', { property: 'og:title', content: 'Solo Time' }],
+    ['meta', { property: 'og:description', content: 'Solo Time, 个人知识管理，Go, Java, Python学习笔记，读书笔记，生活随笔。' }],
+    ['meta', { property: 'og:site', content: 'https://sooloe.com' }],
+    ['meta', { property: 'og:site_name', content: 'Solo Time' }],
+    ['meta', { property: 'og:image', content: 'Solo Time' }],
     ["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" }],
     ["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
     ['script', {src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765261154701378", async: "true", crossOrigin: "anonymous"}],
@@ -28,8 +28,8 @@ export const head: HeadConfig[] = [
 
 export default defineConfig({
     lang: 'zh',
-    title: '鱼野的数字花园',
-    description: '鱼野的数字花园.',
+    title: 'Solo Time',
+    description: 'Solo Time.',
 
     head,
     transformHtml,
@@ -118,7 +118,7 @@ export default defineConfig({
 
         footer: {
             message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2022-present 鱼野'
+            copyright: 'Copyright © 2022-present Sooloe'
         },
 
         algolia: {

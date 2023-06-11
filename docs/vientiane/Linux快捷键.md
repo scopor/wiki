@@ -15,10 +15,10 @@ head:
     content: Linux 命令行常用快捷键介绍, ctrl + k,ctrl + u, ctrl + w.
 - - meta
   - property: og:url
-    content: https://sanoon.me/vientiane/Linux%E5%BF%AB%E6%8D%B7%E9%94%AE
+    content: https://sooloe.com/vientiane/Linux%E5%BF%AB%E6%8D%B7%E9%94%AE
 - - link
   - rel: canonical
-    href: https://sanoon.me/vientiane/Linux%E5%BF%AB%E6%8D%B7%E9%94%AE
+    href: https://sooloe.com/vientiane/Linux%E5%BF%AB%E6%8D%B7%E9%94%AE
 ---
 
 # Linux 命令行常用快捷键

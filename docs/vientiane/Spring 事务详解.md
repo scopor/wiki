@@ -15,10 +15,10 @@ head:
     content: 最近在开发过程中遇到了有个异常场景，数据库操作未回滚，查看代码已经标了 `@Transactional` 注解，查阅资料发现该注解默认只能用于运行时异常， 对于受检异常(Unchecked Exception)无效，除非使用其 `rollbackFor` 属性指定受检异常才有效，经此发现对于 `Spring` 事务理解的还不够透彻，再次学习之，记录在此。
 - - meta
   - property: og:url
-    content: https://sanoon.me/vientiane/Spring%20%E4%BA%8B%E5%8A%A1%E8%AF%A6%E8%A7%A3
+    content: https://sooloe.com/vientiane/Spring%20%E4%BA%8B%E5%8A%A1%E8%AF%A6%E8%A7%A3
 - - link
   - rel: canonical
-    href: https://sanoon.me/vientiane/Spring%20%E4%BA%8B%E5%8A%A1%E8%AF%A6%E8%A7%A3
+    href: https://sooloe.com/vientiane/Spring%20%E4%BA%8B%E5%8A%A1%E8%AF%A6%E8%A7%A3
 ---
 
 ## 事务

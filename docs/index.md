@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: 鱼野的数字花园
-titleTemplate: 鱼野
+title: Solo Time
+titleTemplate: Sooloe
 
 hero:
-  name: Hi, 鱼野.
+  name: Hi, Sooloe.
   tagline: 一之谓甚, 其可在乎?
   actions:
   - theme: brand

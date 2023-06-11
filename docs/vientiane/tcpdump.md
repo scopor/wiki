@@ -15,10 +15,10 @@ head:
     content: tcpdump 是数据包分析器，运行在命令行下，能够分析网络行为、性能和应用产生或者接收的网络流量。支持对网络层、协议、主机、端口的过滤，提供 and、 or、 not等逻辑语句过滤无用的信息。
 - - meta
   - property: og:url
-    content: https://sanoon.me/vientiane/tcpdump
+    content: https://sooloe.com/vientiane/tcpdump
 - - link
   - rel: canonical
-    href: https://sanoon.me/vientiane/tcpdump
+    href: https://sooloe.com/vientiane/tcpdump
 ---
 
 # tcpdump

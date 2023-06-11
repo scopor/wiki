@@ -15,10 +15,10 @@ head:
     content: crontab 命令用于管理周期性任务的表格，这些任务可按照用户指定的时间间隔执行，通常用于自动执行系统维护、日常任务或其他常规操作。
 - - meta
   - property: og:url
-    content: https://sanoon.me/vientiane/crontab
+    content: https://sooloe.com/vientiane/crontab
 - - link
   - rel: canonical
-    href: https://sanoon.me/vientiane/crontab
+    href: https://sooloe.com/vientiane/crontab
 ---
 
 # crontab

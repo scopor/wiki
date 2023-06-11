@@ -15,10 +15,10 @@ head:
     content: Files.readAllBytes 是 Java 中一个方便的方法，用于读取文件中的所有字节并将其返回为一个 byte 数组。然而，它存在一些使用隐患，可能会导致程序运行出错或产生安全问题。
 - - meta
   - property: og:url
-    content: https://sanoon.me/vientiane/Java%E8%AF%BB%E5%8F%96%E5%A4%A7%E6%96%87%E4%BB%B6
+    content: https://sooloe.com/vientiane/Java%E8%AF%BB%E5%8F%96%E5%A4%A7%E6%96%87%E4%BB%B6
 - - link
   - rel: canonical
-    href: https://sanoon.me/vientiane/Java%E8%AF%BB%E5%8F%96%E5%A4%A7%E6%96%87%E4%BB%B6
+    href: https://sooloe.com/vientiane/Java%E8%AF%BB%E5%8F%96%E5%A4%A7%E6%96%87%E4%BB%B6
 ---
 
 # Files.readAllBytes

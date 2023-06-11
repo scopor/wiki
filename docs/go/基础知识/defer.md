@@ -15,10 +15,10 @@ head:
     content: defer 是 Go 新增的关键字，表示延迟调用，在 defer 之后可以紧跟表达式或者函数。defer 后面的语句会在当前函数执行完毕后被执行。
 - - meta
   - property: og:url
-    content: https://sanoon.me/go/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/defer
+    content: https://sooloe.com/go/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/defer
 - - link
   - rel: canonical
-    href: https://sanoon.me/go/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/defer
+    href: https://sooloe.com/go/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/defer
 ---
   
 # Go 语言笔记：defer

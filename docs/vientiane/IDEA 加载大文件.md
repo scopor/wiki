@@ -15,10 +15,10 @@ head:
     content: IDEA 加载大文件。
 - - meta
   - property: og:url
-    content: https://sanoon.me/vientiane/IDEA%20%E5%8A%A0%E8%BD%BD%E5%A4%A7%E6%96%87%E4%BB%B6
+    content: https://sooloe.com/vientiane/IDEA%20%E5%8A%A0%E8%BD%BD%E5%A4%A7%E6%96%87%E4%BB%B6
 - - link
   - rel: canonical
-    href: https://sanoon.me/vientiane/IDEA%20%E5%8A%A0%E8%BD%BD%E5%A4%A7%E6%96%87%E4%BB%B6
+    href: https://sooloe.com/vientiane/IDEA%20%E5%8A%A0%E8%BD%BD%E5%A4%A7%E6%96%87%E4%BB%B6
 ---
 
 ## 现象
