@@ -13,9 +13,9 @@ onMounted(() => {
          title="Google Ads" 
          style="display:block; text-align:center;"
          data-ad-layout="in-article"
-         data-ad-format="fluid"
+         data-ad-format="auto"
          data-ad-client="ca-pub-6765261154701378"
-         data-ad-slot="6290453552">
+         data-ad-slot="5012951352" data-full-width-responsive="true">
      </ins>
   </div>
 </template>
