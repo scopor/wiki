@@ -5,8 +5,7 @@ title: Solo Time
 titleTemplate: Sooloe
 
 hero:
-  name: Hi, Sooloe.
-  tagline: 一之谓甚, 其可在乎?
+  name: Solo Time
   actions:
   - theme: brand
     text: 开始阅读
