@@ -22,8 +22,8 @@ export const head: HeadConfig[] = [
     ["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" }],
     ["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
     ['script', {src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765261154701378", async: "true", crossOrigin: "anonymous"}],
-    ['script', {src: "https://www.googletagmanager.com/gtag/js?id=G-91MY43NGWN", async: "true", crossOrigin: "anonymous"}],
-    ['script', {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-91MY43NGWN');`]
+    ['script', {src: "https://www.googletagmanager.com/gtag/js?id=G-G-KPJ96R9DFB", async: "true", crossOrigin: "anonymous"}],
+    ['script', {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-G-KPJ96R9DFB');`]
 ];
 
 export default defineConfig({
