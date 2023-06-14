@@ -20,3 +20,4 @@ MacOS 启动台里的图标删不掉怎么办？打开 Terminal，执行以下�
 ```shell
 sqlite3 $(find /private/var/folders \( -name com.apple.dock.launchpad -a -user $USER \) 2> /dev/null)/db/db "DELETE FROM apps WHERE title like 'ACCFind%';" && killall Dock
 ```
+    
