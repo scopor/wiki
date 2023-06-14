@@ -121,14 +121,14 @@ export default defineConfig({
             copyright: 'Copyright © 2022-present Sooloe'
         },
 
-        algolia: {
-            appId: '3A6QJ8G3R5',
-            apiKey: '33921eeee5957cab06814a4db45ff6af',
-            // apiKey: '40d74994cabeb14270e5f873e5ed5fb3',
-            indexName: 'sanoon',
-            placeholder: '请输入关键字',
-            buttonText: '搜索'
-        },
+        // algolia: {
+        //     appId: '3A6QJ8G3R5',
+        //     apiKey: '33921eeee5957cab06814a4db45ff6af',
+        //     // apiKey: '40d74994cabeb14270e5f873e5ed5fb3',
+        //     indexName: 'sanoon',
+        //     placeholder: '请输入关键字',
+        //     buttonText: '搜索'
+        // },
     }
 })
 
