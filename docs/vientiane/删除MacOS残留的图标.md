@@ -5,7 +5,7 @@ head:
   - property: og:title
     content: 删除 MacOS 残留的图标
 - - meta
-    name: description
+  - name: description
     content: MacOS 启动台里的图标删不掉怎么办. 
 - - meta
   - name: keywords
