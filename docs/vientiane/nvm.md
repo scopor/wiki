@@ -19,7 +19,7 @@ head:
 
 ## 1、安装 NVM 
 
-当前 NVM 最新版本为 1.1.11，[下载地址](https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-setup.exe)
+当前 NVM 最新版本为 [1.1.11](https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-setup.exe)，也可以选择[其他版本](https://github.com/coreybutler/nvm-windows/releases)
 
 下载好之后一路双击，中间存在一步是选择 nodejs 存储目录，切记不要选择路径中带有空格的路径即可。
 
