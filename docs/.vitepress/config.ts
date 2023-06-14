@@ -183,6 +183,13 @@ function sidebarVientiane() {
             ]
         },
         {
+            text: 'Web',
+            collapsed: true,
+            items: [
+                { text: 'NVM 管理 NODE', link: '/vientiane/nvm' },
+            ]
+        },
+        {
             text: 'Other',
             collapsed: true,
             items: [
