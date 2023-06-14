@@ -162,7 +162,8 @@ function sidebarVientiane() {
                 { text: 'Linux crontab 命令', link: '/vientiane/crontab' },
                 { text: 'Mac sips 命令', link: '/vientiane/sips' },
                 { text: '查询进程启动时间', link: '/vientiane/查询进程启动时间' },
-                { text: '查找最新修改的文件', link: '/vientiane/查找最新修改的文件' }
+                { text: '查找最新修改的文件', link: '/vientiane/查找最新修改的文件' },
+                { text: '删除 MacOS 残留的图标', link: '/vientiane/删除MacOS残留的图标' }
             ]
         },
         {
