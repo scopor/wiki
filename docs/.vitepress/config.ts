@@ -248,6 +248,23 @@ function sidebarC() {
                 { text: '数据类型', link: '/c/数据类型' },
                 { text: '运算符', link: '/c/运算符' },
                 { text: '流程控制语句', link: '/c/流程控制语句' },
+                { text: '数组', link: '/c/数组' },
+                { text: '字符串', link: '/c/字符串' },
+            ]
+        },
+        {
+            text: '进阶部分',
+            collapsed: true,
+            items: [
+                { text: '函数', link: '/c/函数' },
+                { text: '指针', link: '/c/指针' },
+                { text: '结构体', link: '/c/结构体' },
+                { text: '枚举', link: '/c/枚举' },
+                { text: '文件', link: '/c/文件' },
+                { text: '系统库', link: '/c/系统库' },
+                { text: '宏', link: '/c/宏' },
+                { text: '编译', link: '/c/编译' },
+                { text: '调试', link: '/c/调试' },
             ]
         }
     ]
