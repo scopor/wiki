@@ -15,7 +15,7 @@ export const head: HeadConfig[] = [
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
     ['meta', { property: 'og:title', content: 'Solo Time' }],
-    ['meta', { property: 'og:description', content: 'Solo Time, 个人知识管理，Go, Java, Python学习笔记，读书笔记，生活随笔。' }],
+    ['meta', { property: 'og:description', content: 'Solo Time, 个人知识管理，Go, Java, Python，C语言等学习笔记，读书笔记，生活随笔。' }],
     ['meta', { property: 'og:site', content: 'https://sooloe.com' }],
     ['meta', { property: 'og:site_name', content: 'Solo Time' }],
     ['meta', { property: 'og:image', content: 'Solo Time' }],
@@ -97,9 +97,10 @@ export default defineConfig({
             '/python/': sidebarPython(),
             '/whisper/': sidebarWhisper(),
             '/photo/': sidebarPhoto(),
-            '/java': sidebarJava(),
-            '/vientiane': sidebarVientiane(),
-            '/reading': sidebarReading(),
+            '/java/': sidebarJava(),
+            '/c/': sidebarC(),
+            '/vientiane/': sidebarVientiane(),
+            '/reading/': sidebarReading(),
         },
 
         socialLinks: [
@@ -140,7 +141,8 @@ function nav() {
             items: [
                 { text: 'Go 学习笔记', link: '/go/index' },
                 { text: 'Python 学习笔记', link: '/python/index' },
-                { text: 'Java 学习笔记', link: '/java/观察者模式' }
+                { text: 'Java 学习笔记', link: '/java/观察者模式' },
+                { text: 'C 学习笔记', link: '/c/index' },
             ]
         },
         { text: '读书笔记', link: '/reading/重构', activeMatch: '/reading/' },
@@ -231,6 +233,21 @@ function sidebarGo() {
                 { text: '结构体', link: '/go/进阶部分/结构体' },
                 { text: '接口', link: '/go/进阶部分/接口' },
                 { text: '协程', link: '/go/进阶部分/协程' },
+            ]
+        }
+    ]
+}
+
+function sidebarC() {
+    return [
+        {
+            text: '基础知识',
+            collapsed: true,
+            items: [
+                { text: '环境搭建', link: '/c/index' },
+                { text: '数据类型', link: '/c/数据类型' },
+                { text: '运算符', link: '/c/运算符' },
+                { text: '流程控制语句', link: '/c/流程控制语句' },
             ]
         }
     ]
