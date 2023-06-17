@@ -242,7 +242,7 @@ function sidebarC() {
     return [
         {
             text: '基础知识',
-            collapsed: true,
+            collapsible: true,
             items: [
                 { text: '环境搭建', link: '/c/index' },
                 { text: '数据类型', link: '/c/数据类型' },
