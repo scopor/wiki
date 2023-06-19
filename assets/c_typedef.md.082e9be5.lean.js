@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,O as p}from"./chunks/framework.95b9d657.js";const C=JSON.parse('{"title":"typedef","description":"","frontmatter":{},"headers":[],"relativePath":"c/typedef.md","filePath":"c/typedef.md"}'),l={name:"c/typedef.md"},e=p("",21),o=[e];function t(c,r,y,i,d,F){return a(),n("div",null,o)}const h=s(l,[["render",t]]);export{C as __pageData,h as default};
