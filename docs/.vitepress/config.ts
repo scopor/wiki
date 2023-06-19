@@ -259,6 +259,8 @@ function sidebarC() {
                 { text: '函数', link: '/c/函数' },
                 { text: '指针', link: '/c/指针' },
                 { text: '结构体', link: '/c/结构体' },
+                { text: '联合体', link: '/c/联合体' },
+                { text: 'typedef', link: '/c/typedef' },
                 { text: '枚举', link: '/c/枚举' },
                 { text: '文件', link: '/c/文件' },
                 { text: '系统库', link: '/c/系统库' },
