@@ -263,8 +263,6 @@ function sidebarC() {
                 { text: 'typedef', link: '/c/typedef' },
                 { text: '枚举', link: '/c/枚举' },
                 { text: '文件', link: '/c/文件' },
-                { text: '系统库', link: '/c/系统库' },
-                { text: '宏', link: '/c/宏' },
                 { text: '编译', link: '/c/编译' },
                 { text: '调试', link: '/c/调试' },
             ]
