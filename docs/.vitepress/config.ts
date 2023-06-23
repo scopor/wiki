@@ -93,7 +93,7 @@ export default defineConfig({
         nav: nav(),
 
         sidebar: {
-            '/ads.txt': '/ads',
+            '/ads.txt/': '/ads',
             '/go/': sidebarGo(),
             '/python/': sidebarPython(),
             '/whisper/': sidebarWhisper(),
