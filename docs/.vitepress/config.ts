@@ -93,6 +93,7 @@ export default defineConfig({
         nav: nav(),
 
         sidebar: {
+            '/ads.txt': '/ads',
             '/go/': sidebarGo(),
             '/python/': sidebarPython(),
             '/whisper/': sidebarWhisper(),
@@ -119,7 +120,7 @@ export default defineConfig({
 
         footer: {
             message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2022-present Sooloe'
+            copyright: 'Copyright © 2022-present Scopor'
         },
 
         algolia: {
