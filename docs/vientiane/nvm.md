@@ -26,7 +26,8 @@ head:
 安装之后，在 NVM 安装路径下，可以找到 settings.txt 文件，这里面就是当前 NVM 的配置信息。
 
 ```sh
-root: D:\develop\nodejs
+root: D:\develop\nvm
+path: D:\develop\nodejs
 arch: 64
 proxy: https://xxx.xxx.com:port
 originalpath: .
@@ -83,5 +84,22 @@ nvm use 18.16.0
 
 ```sh
 nvm uninstall 18.16.0
+```
+
+## 6、NPM 代理
+
+NPM 配置代理
+
+```sh
+npm config set proxy https://域名:port
+npm set strict-ssl false
+```
+
+## 7、Yarn 代理
+
+Yarn 复用 NPM 代理
+
+```sh
+yarn config set strict-ssl false
 ```
 
