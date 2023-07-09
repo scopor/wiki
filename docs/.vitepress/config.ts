@@ -154,7 +154,7 @@ function sidebarVientiane() {
     return [
         {
             text: 'Linux',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: 'Linux 快捷键', link: '/vientiane/Linux快捷键' },
                 { text: 'Shell 脚本异常退出命令', link: '/vientiane/Shell脚本异常退出命令'},
@@ -171,7 +171,7 @@ function sidebarVientiane() {
         },
         {
             text: 'Java',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: 'Jar 本地存在 Maven 编译失败', link: '/vientiane/jar-exist' },
                 { text: 'Spring 事务详解', link: '/vientiane/Spring 事务详解' },
@@ -181,14 +181,14 @@ function sidebarVientiane() {
         },
         {
             text: 'Git',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: 'Git 常用命令', link: '/vientiane/Git常用命令' },
             ]
         },
         {
             text: 'Web',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: 'NVM 管理 NODE', link: '/vientiane/nvm' },
                 { text: 'TS2307', link: '/vientiane/TS2307' },
@@ -196,7 +196,7 @@ function sidebarVientiane() {
         },
         {
             text: 'Other',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: 'Windows CPU 高', link: '/vientiane/kill%20svchost' },
                 { text: 'VitePress 集成 Algolia', link: '/vientiane/VitePress集成Algolia.md' },
@@ -209,7 +209,7 @@ function sidebarGo() {
     return [
         {
             text: '基础知识',
-            collapsible: true,
+            collapsible: false,
             items: [
                 { text: '变量', link: '/go/基础知识/变量' },
                 { text: '常量', link: '/go/基础知识/常量' },
@@ -230,7 +230,7 @@ function sidebarGo() {
         },
         {
             text: '进阶部分',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: '结构体', link: '/go/进阶部分/结构体' },
                 { text: '接口', link: '/go/进阶部分/接口' },
@@ -244,7 +244,7 @@ function sidebarC() {
     return [
         {
             text: '基础知识',
-            collapsible: true,
+            collapsible: false,
             items: [
                 { text: '环境搭建', link: '/c/index' },
                 { text: '数据类型', link: '/c/数据类型' },
@@ -256,7 +256,7 @@ function sidebarC() {
         },
         {
             text: '进阶部分',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: '函数', link: '/c/函数' },
                 { text: '指针', link: '/c/指针' },
@@ -277,7 +277,7 @@ function sidebarPython() {
     return [
         {
             text: 'Python',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: 'Introduction', link: '/python/index' },
             ]
@@ -289,7 +289,7 @@ function sidebarJava() {
     return [
         {
             text: '设计模式',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: '观察者模式', link: '/java/观察者模式' },
             ]
@@ -301,7 +301,7 @@ function sidebarReading() {
     return [
         {
             text: '技术书籍',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: '重构：改善既有代码设计', link: '/reading/重构' },
                 { text: 'CSS: 引入方式和选择器', link: '/reading/css' },
@@ -316,7 +316,7 @@ function sidebarPhoto() {
     return [
         {
             text: 'Photo',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: '朱雀森林公园', link: '/photo/index' },
             ]
@@ -328,14 +328,14 @@ function sidebarWhisper() {
     return [
         {
             text: '秦岭足迹',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: '秦岭东坪沟草甸', link: '/whisper/秦岭东坪沟草甸' },
             ]
         },
         {
             text: '旅行足迹',
-            collapsed: true,
+            collapsed: false,
             items: [
                 { text: '青海之行', link: '/whisper/青海之行' },
             ]
