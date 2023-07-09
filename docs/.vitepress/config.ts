@@ -191,6 +191,7 @@ function sidebarVientiane() {
             collapsed: true,
             items: [
                 { text: 'NVM 管理 NODE', link: '/vientiane/nvm' },
+                { text: 'TS2307', link: '/vientiane/TS2307' },
             ]
         },
         {
