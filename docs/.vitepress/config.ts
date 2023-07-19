@@ -291,6 +291,7 @@ function sidebarJava() {
             text: '设计模式',
             collapsed: false,
             items: [
+                { text: '单例模式', link: '/java/单例模式' },
                 { text: '观察者模式', link: '/java/观察者模式' },
             ]
         }
