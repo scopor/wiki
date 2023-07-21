@@ -1,4 +1,4 @@
 # Algolia-Crawler-Verif: 844CB71862F1372C
 User-agent: *
 Allow: /
-Sitemap: https://www.algolia.com/sitemap.xml
+Sitemap: https://sooloe.com/sitemap.xml
