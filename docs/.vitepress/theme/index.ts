@@ -5,6 +5,6 @@ import './style/custom.css';
 export default {
     ...DefaultTheme,
     enhanceApp({ app }) {
-        app.component('GoogleAdsense', GoogleAdsense);
+        // app.component('GoogleAdsense', GoogleAdsense);
     }
 }
