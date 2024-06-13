@@ -3,7 +3,6 @@ import {useRoute} from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import GoogleAdsense from './components/GoogleAdsense.vue';
 import './style/custom.css';
-import './style.css'
 import 'viewerjs/dist/viewer.min.css';
 import imageViewer from 'vitepress-plugin-image-viewer';
 import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue';
