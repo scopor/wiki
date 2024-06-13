@@ -1,6 +1,5 @@
-import { defineConfig, HeadConfig } from 'vitepress';
-import {transformHtml, buildEnd} from "./config/sitemap";
-import customAttrs  from 'markdown-it-custom-attrs';
+import { withMermaid } from "vitepress-plugin-mermaid";
+import markdownItVideo from "@vrcd-community/markdown-it-video";
 
 export const head: HeadConfig[] = [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -23,10 +22,10 @@ export const head: HeadConfig[] = [
     ["script", { src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" }],
     ['script', {src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765261154701378", async: "true", crossOrigin: "anonymous"}],
     ['script', {src: "https://www.googletagmanager.com/gtag/js?id=G-KPJ96R9DFB", async: "true", crossOrigin: "anonymous"}],
-    ['script', {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-KPJ96R9DFB');`]
+    ['script', {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-KPJ96R9DFB');`],
 ];
 
-export default defineConfig({
+export default withMermaid({
     lang: 'zh',
     title: 'Solo Time',
     description: 'Solo Time.',
@@ -39,50 +38,28 @@ export default defineConfig({
     cleanUrls: 'without-subfolders',
 
     markdown: {
+        image: {
+            // 默认禁用图片懒加载
+            lazyLoading: true
+        },
         config: (md) => {
-            const width = '100%';
-            md.use(require('markdown-it-block-embed'), {
+            // 使用更多的 Markdown-it 插件！
+            md.use(withMermaid);
+            md.use(markdownItVideo, {
                 youtube: {width: '100%', height: '387px'}
             });
-
-            md.use(customAttrs, 'image', {
-                'data-fancybox': "gallery"
-            });
-            
-            md.use(require('@nekohack/markdown-it-link-preview'));
-
-            md.use(require('markdown-it-container'), 'netease', {
-                validate: function(params) {
-                    return params.trim().match(/^netease\s+(.*)$/);
-                },
-
-                render: function (tokens, idx) {
-                    const m = tokens[idx].info.trim().match(/^netease\s+(.*)$/);
-
-                    if (tokens[idx].nesting === 1) {
-                        return `<div id="music"><iframe style="border: 0; margin-left: -10px; width: 298px; height: 52px" src="//music.163.com/outchain/player?type=2&id=` + md.utils.escapeHtml(m[1]) + `&auto=1&height=32"></iframe></div>`;
-                    } else {
-                        return "";
-                    }
-                }
-            });
-
-            md.use(require('markdown-it-container'), 'bilibili', {
-                validate: function(params) {
-                    return params.trim().match(/^bilibili\s+(.*)$/);
-                },
-
-                render: function (tokens, idx) {
-                    const m = tokens[idx].info.trim().match(/^bilibili\s+(.*)$/);
-                    if (tokens[idx].nesting === 1) {
-                        const videoId = md.utils.escapeHtml(m[1]);
-                        return `<div id="video"><iframe style="width: 100%; height: 387px" type="text/html" src="//player.bilibili.com/player.html?bvid=` + videoId +`"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" loading="lazy"></iframe></div>`;
-                    } else {
-                        return "";
-                    }
-                }
-            });
         },
+    },
+
+    mermaid: {
+    },
+
+    mermaidPlugin: {
+        class: "mermaid my-class", // set additional css classes for parent container
+    },
+
+    sitemap: {
+        hostname: 'http://localhost:5173'
     },
 
     themeConfig: {
