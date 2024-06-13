@@ -31,7 +31,6 @@ export default withMermaid({
     description: 'Solo Time.',
 
     head,
-    transformHtml,
     buildEnd,
     ignoreDeadLinks: true,
     lastUpdated: false,
