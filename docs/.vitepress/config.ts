@@ -288,6 +288,13 @@ function sidebarPython() {
 function sidebarJava() {
     return [
         {
+            text: '设计原则',
+            collapsed: false,
+            items: [
+                { text: 'SOLID 原则', link: '/java/SOLID原则' },
+            ]
+        },
+        {
             text: '设计模式',
             collapsed: false,
             items: [
