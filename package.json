@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
-    "@types/node": "^18.7.8",
-    "vitepress": "1.0.0-alpha.28",
-    "markdown-it-container": "^1.0.0",
-    "vue": "^3.2.37",
-    "sitemap": "^7.1.1"
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "vitepress": "^1.2.2",
+    "vitepress-plugin-image-viewer": "^1.1.4"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -16,9 +16,9 @@
     "docs:serve": "vitepress serve docs"
   },
   "dependencies": {
-    "markdown-it": "^13.0.1",
-    "markdown-it-block-embed": "^0.0.3",
-    "markdown-it-custom-attrs": "^1.0.0",
-    "@nekohack/markdown-it-link-preview": "^1.0.7"
+    "@vrcd-community/markdown-it-video": "^1.1.1",
+    "mermaid": "^10.9.1",
+    "sass": "^1.77.5",
+    "vitepress-plugin-mermaid": "^2.0.16"
   }
 }
