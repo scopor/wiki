@@ -59,7 +59,7 @@ export default withMermaid({
     },
 
     sitemap: {
-        hostname: 'http://localhost:5173'
+        hostname: 'https://sooloe.com'
     },
 
     themeConfig: {
