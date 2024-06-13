@@ -31,7 +31,6 @@ export default withMermaid({
     description: 'Solo Time.',
 
     head,
-    buildEnd,
     ignoreDeadLinks: true,
     lastUpdated: false,
     cleanUrls: 'without-subfolders',
