@@ -31,7 +31,7 @@ export const head: HeadConfig[] = [
     ['script', {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-KPJ96R9DFB');`],
 ];
 
-export default withMermaid({
+export default defineConfig({
     lang: 'zh',
     title: 'Solo Time',
     description: 'Solo Time.',
@@ -52,7 +52,7 @@ export default withMermaid({
         },
         config: (md) => {
             // 使用更多的 Markdown-it 插件！
-            md.use(withMermaid);
+            // md.use(withMermaid);
             md.use(markdownItVideo, {
                 youtube: {width: '100%', height: '387px'},
                 bilibili: {width: '100%', height: '387px'}
