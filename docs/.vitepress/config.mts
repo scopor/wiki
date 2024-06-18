@@ -1,4 +1,4 @@
-import { withMermaid } from "vitepress-plugin-mermaid";
+import { defineConfig } from "vitepress";
 import markdownItVideo from "@vrcd-community/markdown-it-video";
 import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss';
 
