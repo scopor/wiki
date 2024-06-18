@@ -1,5 +1,13 @@
 import { withMermaid } from "vitepress-plugin-mermaid";
 import markdownItVideo from "@vrcd-community/markdown-it-video";
+import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss';
+
+const baseUrl = 'https://sooloe.com'
+const RSS: RSSOptions = {
+    title: 'Solo Time',
+    baseUrl,
+    copyright: 'Copyright © 2022-present Scopor',
+}
 
 export const head: HeadConfig[] = [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -35,6 +43,10 @@ export default withMermaid({
     lastUpdated: false,
     cleanUrls: 'without-subfolders',
 
+    vite: {
+        plugins: [RssPlugin(RSS)]
+    },
+
     markdown: {
         image: {
             // 默认禁用图片懒加载
@@ -58,7 +70,7 @@ export default withMermaid({
     },
 
     sitemap: {
-        hostname: 'https://sooloe.com'
+        hostname: baseUrl
     },
 
     themeConfig: {
