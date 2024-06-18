@@ -19,6 +19,7 @@
   "dependencies": {
     "@vrcd-community/markdown-it-video": "^1.1.1",
     "mermaid": "^10.9.1",
-    "sass": "^1.77.5"
+    "sass": "^1.77.5",
+    "vitepress-plugin-mermaid": "^2.0.16"
   }
 }
