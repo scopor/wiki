@@ -20,15 +20,15 @@ features:
     details: 程序员的乐趣。
     link: /go/
   - title: Java 学习笔记
-    icon: 🐬
+    icon: ☕
     details: 程序员的乐趣。
     link: /java/
   - title: C 学习笔记
-    icon: 🐬
+    icon: 🐋
     details: 程序员的乐趣。
     link: /c/
   - title: Python 学习笔记
-    icon: 🐬
+    icon: 🐍
     details: 程序员的乐趣。
     link: /python/
   - title: 读书笔记
@@ -39,7 +39,15 @@ features:
     icon: 🐳
     details: 自留地，瞎扯淡。
     link: /whisper/秦岭东坪沟草甸
+  - title: 捉虫万象
+    icon: 🐛
+    details: BUG 集锦。
+    link: /vientiane/Linux快捷键
   - title: 图说生活
     icon: 📷
     details: 旅行、随手拍。
+  - title: VitePress
+    icon: 💧
+    details: VitePress 集成记录。
+    link: /VitePress/集成视频插件
 ---
