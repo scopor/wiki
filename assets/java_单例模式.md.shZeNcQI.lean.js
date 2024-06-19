@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.CnyD3u0R.js";const y=JSON.parse('{"title":"单例模式","description":"","frontmatter":{},"headers":[],"relativePath":"java/单例模式.md","filePath":"java/单例模式.md"}'),l={name:"java/单例模式.md"},t=n("",62),h=[t];function p(k,e,E,r,d,g){return a(),i("div",null,h)}const o=s(l,[["render",p]]);export{y as __pageData,o as default};
