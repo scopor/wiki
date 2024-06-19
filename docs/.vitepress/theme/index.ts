@@ -1,8 +1,8 @@
 import {h} from 'vue'
 import {useRoute} from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import './style/custom.css';
 import 'viewerjs/dist/viewer.min.css';
+import './style/custom.css';
 import imageViewer from 'vitepress-plugin-image-viewer';
 import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue';
 import GoogleAdsense from './components/GoogleAdsense.vue';
