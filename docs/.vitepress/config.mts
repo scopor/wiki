@@ -26,6 +26,7 @@ export const head: HeadConfig[] = [
     ['meta', { property: 'og:site', content: 'https://sooloe.com' }],
     ['meta', { property: 'og:site_name', content: 'Solo Time' }],
     ['meta', { property: 'og:image', content: 'Solo Time' }],
+    ['meta', { property: 'google-adsense-account' content: 'ca-pub-6765261154701378'}],
     ['script', {src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765261154701378", async: "true", crossOrigin: "anonymous"}],
     ['script', {src: "https://www.googletagmanager.com/gtag/js?id=G-KPJ96R9DFB", async: "true", crossOrigin: "anonymous"}],
     ['script', {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-KPJ96R9DFB');`],
