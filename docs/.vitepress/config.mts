@@ -43,7 +43,7 @@ export default withMermaid({
     cleanUrls: 'without-subfolders',
 
     vite: {
-        // plugins: [RssPlugin(RSS)]
+        plugins: [RssPlugin(RSS)]
     },
 
     markdown: {
