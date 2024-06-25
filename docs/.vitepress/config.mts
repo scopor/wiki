@@ -187,7 +187,6 @@ function sidebarVientiane() {
             collapsed: false,
             items: [
                 { text: 'Windows CPU 高', link: '/vientiane/kill%20svchost' },
-                { text: 'VitePress 集成 Algolia', link: '/vientiane/VitePress集成Algolia.md' },
             ]
         }
     ]
@@ -200,6 +199,7 @@ function sidebarVitePress() {
             collapsed: false,
             items: [
                 { text: '集成视频插件', link: '/VitePress/集成视频插件' },
+                { text: 'VitePress 集成 Algolia', link: '/vientiane/VitePress集成Algolia' },
             ]
         }
     ]
