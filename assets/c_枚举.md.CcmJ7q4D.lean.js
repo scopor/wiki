@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.BocDoH_z.js";const g=JSON.parse('{"title":"枚举","description":"","frontmatter":{},"headers":[],"relativePath":"c/枚举.md","filePath":"c/枚举.md"}'),t={name:"c/枚举.md"},h=n("",18),p=[h];function l(e,k,d,r,E,c){return a(),i("div",null,p)}const y=s(t,[["render",l]]);export{g as __pageData,y as default};
