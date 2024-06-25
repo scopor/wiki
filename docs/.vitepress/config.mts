@@ -199,7 +199,7 @@ function sidebarVitePress() {
             collapsed: false,
             items: [
                 { text: '集成视频插件', link: '/VitePress/集成视频插件' },
-                { text: 'VitePress 集成 Algolia', link: '/vientiane/VitePress集成Algolia' },
+                { text: 'VitePress 集成 Algolia', link: '/VitePress/VitePress集成Algolia' },
             ]
         }
     ]
