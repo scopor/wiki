@@ -155,7 +155,7 @@ function sidebarVientiane() {
                 { text: '查找最新修改的文件', link: '/vientiane/查找最新修改的文件' },
                 { text: '删除 MacOS 残留的图标', link: '/vientiane/删除MacOS残留的图标' },
                 { text: '信号', link: '/vientiane/信号量' },
-                { text: '删除非软链接的文件', link: ' 删除非软链接的文件' },
+                { text: '删除非软链接的文件', link: '/vientiane/删除非软链接的文件' },
             ]
         },
         {
