@@ -154,7 +154,8 @@ function sidebarVientiane() {
                 { text: '查询进程启动时间', link: '/vientiane/查询进程启动时间' },
                 { text: '查找最新修改的文件', link: '/vientiane/查找最新修改的文件' },
                 { text: '删除 MacOS 残留的图标', link: '/vientiane/删除MacOS残留的图标' },
-                { text: '信号', link: '/vientiane/信号量' }
+                { text: '信号', link: '/vientiane/信号量' },
+                { text: '删除非软链接的文件', link: ' 删除非软链接的文件' },
             ]
         },
         {
@@ -199,7 +200,7 @@ function sidebarVitePress() {
             collapsed: false,
             items: [
                 { text: '集成视频插件', link: '/VitePress/集成视频插件' },
-                { text: 'VitePress 集成 Algolia', link: '/VitePress/VitePress集成Algolia' },
+                { text: '集成 Algolia', link: '/VitePress/VitePress集成Algolia' },
             ]
         }
     ]
