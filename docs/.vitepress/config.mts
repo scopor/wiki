@@ -130,7 +130,7 @@ function nav() {
                 { text: 'Go 学习笔记', link: '/go/index' },
                 { text: 'Python 学习笔记', link: '/python/index' },
                 { text: 'Java 学习笔记', link: '/java/观察者模式' },
-                { text: 'C 学习笔记', link: '/c/index' },
+                { text: 'C 学习笔记', link: '/c/环境搭建' },
             ]
         },
         { text: '读书笔记', link: '/reading/重构', activeMatch: '/reading/' },
@@ -247,7 +247,7 @@ function sidebarC() {
             text: '基础知识',
             collapsible: false,
             items: [
-                { text: '环境搭建', link: '/c/index' },
+                { text: '环境搭建', link: '/c/环境搭建' },
                 { text: '数据类型', link: '/c/数据类型' },
                 { text: '运算符', link: '/c/运算符' },
                 { text: '流程控制语句', link: '/c/流程控制语句' },
