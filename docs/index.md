@@ -26,7 +26,7 @@ features:
   - title: C 学习笔记
     icon: 🐋
     details: 程序员的乐趣。
-    link: /c/环境搭建
+    link: /c/
   - title: Python 学习笔记
     icon: 🐍
     details: 程序员的乐趣。
