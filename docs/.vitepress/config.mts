@@ -277,10 +277,29 @@ function sidebarC() {
 function sidebarPython() {
     return [
         {
-            text: 'Python',
+            text: '基础知识',
             collapsed: false,
             items: [
-                { text: 'Introduction', link: '/python/index' },
+                { text: '简介', link: '/python/index' },
+                { text: 'bug', link: '/python/bug' },
+                { text: '变量', link: '/python/变量' },
+                { text: '常量', link: '/python/常量' },
+                { text: '语句', link: '/python/语句' },
+            ]
+        },
+        {
+            text: '数据类型',
+            collapsed: false,
+            items: [
+                { text: '数值', link: '/python/数值' },
+                { text: '布尔', link: '/python/布尔' },
+                { text: '字符串', link: '/python/字符串' },
+                { text: '列表', link: '/python/列表' },
+                { text: '元组', link: '/python/元组' },
+                { text: 'range', link: '/python/range' },
+                { text: '切片', link: '/python/切片' },
+                { text: '遍历', link: '/python/遍历' },
+                { text: '字典', link: '/python/字典' },
             ]
         }
     ]
