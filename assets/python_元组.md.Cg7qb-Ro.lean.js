@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.D_7_7Osg.js";const y=JSON.parse('{"title":"元组","description":"","frontmatter":{},"headers":[],"relativePath":"python/元组.md","filePath":"python/元组.md"}'),h={name:"python/元组.md"},t=n("",22),l=[t];function k(p,e,r,E,d,g){return a(),i("div",null,l)}const c=s(h,[["render",k]]);export{y as __pageData,c as default};
