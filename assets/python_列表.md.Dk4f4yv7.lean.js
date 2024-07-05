@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.D_7_7Osg.js";const o=JSON.parse('{"title":"列表","description":"","frontmatter":{},"headers":[],"relativePath":"python/列表.md","filePath":"python/列表.md"}'),h={name:"python/列表.md"},l=n("",26),k=[l];function t(p,e,E,r,d,g){return a(),i("div",null,k)}const c=s(h,[["render",t]]);export{o as __pageData,c as default};
