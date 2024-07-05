@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.D_7_7Osg.js";const c=JSON.parse('{"title":"数值","description":"","frontmatter":{},"headers":[],"relativePath":"python/数值.md","filePath":"python/数值.md"}'),l={name:"python/数值.md"},h=n("",21),t=[h];function p(k,e,r,d,g,E){return a(),i("div",null,t)}const o=s(l,[["render",p]]);export{c as __pageData,o as default};
