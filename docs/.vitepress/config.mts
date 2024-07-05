@@ -127,10 +127,10 @@ function nav() {
         {
             text: '笔记系列',
             items: [
-                { text: 'Go 学习笔记', link: '/go/index' },
-                { text: 'Python 学习笔记', link: '/python/index' },
-                { text: 'Java 学习笔记', link: '/java/观察者模式' },
-                { text: 'C 学习笔记', link: '/c/环境搭建' },
+                { text: 'Go', link: '/go/index' },
+                { text: 'Python', link: '/python/简介' },
+                { text: 'Java', link: '/java/观察者模式' },
+                { text: 'C', link: '/c/环境搭建' },
             ]
         },
         { text: '读书笔记', link: '/reading/重构', activeMatch: '/reading/' },
