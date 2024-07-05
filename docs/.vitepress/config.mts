@@ -300,8 +300,27 @@ function sidebarPython() {
                 { text: '切片', link: '/python/切片' },
                 { text: '遍历', link: '/python/遍历' },
                 { text: '字典', link: '/python/字典' },
+                { text: '集合', link: '/python/集合' },
             ]
-        }
+        },
+        {
+            text: '函数、模块、包',
+            collapsed: false,
+            items: [
+                { text: '函数', link: '/python/函数' },
+                { text: '模块', link: '/python/模块' },
+                { text: '包', link: '/python/包' },
+            ]
+        },
+        {
+            text: '面向对象',
+            collapsed: false,
+            items: [
+                { text: '类', link: '/python/类' },
+                { text: '继承', link: '/python/继承' },
+                { text: '多态', link: '/python/多态' },
+            ]
+        },
     ]
 }
 
