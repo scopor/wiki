@@ -15,19 +15,19 @@ hero:
     link: https://github.com/scopor
 
 features:
-  - title: Go 学习笔记
+  - title: Go
     icon: 🐬
     details: 程序员的乐趣。
     link: /go/
-  - title: Java 学习笔记
+  - title: Java
     icon: ☕
     details: 程序员的乐趣。
     link: /java/
-  - title: C 学习笔记
+  - title: C
     icon: 🐋
     details: 程序员的乐趣。
     link: /c/
-  - title: Python 学习笔记
+  - title: Python
     icon: 🐍
     details: 程序员的乐趣。
     link: /python/
