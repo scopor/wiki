@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.D_7_7Osg.js";const c=JSON.parse('{"title":"语句","description":"","frontmatter":{},"headers":[],"relativePath":"python/语句.md","filePath":"python/语句.md"}'),h={name:"python/语句.md"},t=n("",36),l=[t];function p(e,k,d,r,o,E){return a(),i("div",null,l)}const y=s(h,[["render",p]]);export{c as __pageData,y as default};
