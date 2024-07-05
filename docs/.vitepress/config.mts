@@ -280,7 +280,7 @@ function sidebarPython() {
             text: '基础知识',
             collapsed: false,
             items: [
-                { text: '简介', link: '/python/index' },
+                { text: '简介', link: '/python/简介' },
                 { text: 'bug', link: '/python/bug' },
                 { text: '变量', link: '/python/变量' },
                 { text: '常量', link: '/python/常量' },
