@@ -80,7 +80,7 @@ export default withMermaid({
         nav: nav(),
 
         sidebar: {
-            '/ads.txt/': '/ads',
+            '/Ads.txt/': '/ads',
             '/go/': sidebarGo(),
             '/python/': sidebarPython(),
             '/whisper/': sidebarWhisper(),
