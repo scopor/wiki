@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a5 as t}from"./chunks/framework.DhMiq51s.js";const g=JSON.parse('{"title":"字典","description":"","frontmatter":{},"headers":[],"relativePath":"python/字典.md","filePath":"python/字典.md"}'),n={name:"python/字典.md"},h=t("",63),e=[h];function l(p,k,d,r,o,c){return a(),i("div",null,e)}const y=s(n,[["render",l]]);export{g as __pageData,y as default};
