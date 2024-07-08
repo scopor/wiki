@@ -4,14 +4,14 @@
         <title>Solo Time</title>
         <link>https://sooloe.com</link>
         <description>undefined</description>
-        <lastBuildDate>Mon, 08 Jul 2024 11:45:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Jul 2024 11:45:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2022-present Scopor</copyright>
         <item>
             <link>https://sooloe.com/ads</link>
             <guid>https://sooloe.com/ads</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[google.com, pub-6765261154701378, DIRECT, f08c47fec0942fa0]]></description>
             <content:encoded><![CDATA[<p>google.com, pub-6765261154701378, DIRECT, f08c47fec0942fa0</p>
 ]]></content:encoded>
@@ -20,7 +20,7 @@
             <title><![CDATA[VitePress 集成 Algolia]]></title>
             <link>https://sooloe.com/VitePress/VitePress集成Algolia</link>
             <guid>https://sooloe.com/VitePress/VitePress集成Algolia</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[1、Algolia 申请
 VitePress 支持配置 Algolia，因此我们只需要申请 Algolia 的 DOCSEARCH 即可，申请之后会收到一封邮件，你需要直接回复，你拥有该网站的管理权限]]></description>
             <content:encoded><![CDATA[<h2 id="_1、algolia-申请" tabindex="-1">1、Algolia 申请 <a class="header-anchor" href="#_1、algolia-申请" aria-label="Permalink to &quot;1、Algolia 申请&quot;">&ZeroWidthSpace;</a></h2>
@@ -42,7 +42,7 @@ VitePress 支持配置 Algolia，因此我们只需要申请 Algolia 的 DOCSEAR
             <title><![CDATA[集成视频插件]]></title>
             <link>https://sooloe.com/VitePress/集成视频插件</link>
             <guid>https://sooloe.com/VitePress/集成视频插件</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[在 VitePress 中，通过集成 markdown-it-video 插件，可以方便地解析 Markdown 中的 YouTube 视频链接，实现视频的嵌入和播放。下面将介绍如何在 VitePre]]></description>
             <content:encoded><![CDATA[<p>在 VitePress 中，通过集成 markdown-it-video 插件，可以方便地解析 Markdown 中的 YouTube 视频链接，实现视频的嵌入和播放。下面将介绍如何在 VitePress 中使用该插件来解析 YouTube 视频。</p>
 <h2 id="安装插件" tabindex="-1">安装插件 <a class="header-anchor" href="#安装插件" aria-label="Permalink to &quot;安装插件&quot;">&ZeroWidthSpace;</a></h2>
@@ -76,7 +76,7 @@ VitePress 支持配置 Algolia，因此我们只需要申请 Algolia 的 DOCSEAR
             <title><![CDATA[typedef]]></title>
             <link>https://sooloe.com/c/typedef</link>
             <guid>https://sooloe.com/c/typedef</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[typedef
 在 C 语言中，我们经常需要定义一些自定义类型。但是，有时候使用 struct 或 union 等关键字来定义这些类型会显得繁琐和冗长。此时，我们可以使用 typedef 关键字来定义]]></description>
             <content:encoded><![CDATA[<h1 id="typedef" tabindex="-1">typedef <a class="header-anchor" href="#typedef" aria-label="Permalink to &quot;typedef&quot;">&ZeroWidthSpace;</a></h1>
@@ -115,7 +115,7 @@ VitePress 支持配置 Algolia，因此我们只需要申请 Algolia 的 DOCSEAR
             <title><![CDATA[函数]]></title>
             <link>https://sooloe.com/c/函数</link>
             <guid>https://sooloe.com/c/函数</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[函数
 函数是指一段可重用的代码块，它接收零个或多个输入参数，并输出一个返回值。函数使得程序模块化，易于编写、调试和维护。
  定义和声明
@@ -228,7 +228,7 @@ VitePress 支持配置 Algolia，因此我们只需要申请 Algolia 的 DOCSEAR
             <title><![CDATA[字符串]]></title>
             <link>https://sooloe.com/c/字符串</link>
             <guid>https://sooloe.com/c/字符串</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[字符串
 在 C 语言中，字符串是一组字符的序列。在 C 语言中，字符串以 `null` 字符` ('\0')` 结尾。
  初始化分配
@@ -409,7 +409,7 @@ VitePress 支持配置 Algolia，因此我们只需要申请 Algolia 的 DOCSEAR
             <title><![CDATA[指针]]></title>
             <link>https://sooloe.com/c/指针</link>
             <guid>https://sooloe.com/c/指针</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[指针
 
 在 C 语言中，指针是一种特殊的变量类型，它存储了一个内存地址，即某个变量在内存中的位置。可以通过指针访问该变量，并对其进行操作。
@@ -671,7 +671,7 @@ VitePress 支持配置 Algolia，因此我们只需要申请 Algolia 的 DOCSEAR
             <title><![CDATA[数据类型]]></title>
             <link>https://sooloe.com/c/数据类型</link>
             <guid>https://sooloe.com/c/数据类型</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[
 ## 1 基本数据类型
 
@@ -1573,7 +1573,7 @@ C 语言提供了多种数据类型，不同的数据类型占据的空间大小
             <title><![CDATA[数组]]></title>
             <link>https://sooloe.com/c/数组</link>
             <guid>https://sooloe.com/c/数组</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[1 数组
 在 C 语言中，数组是一组具有相同数据类型的变量集合。这些变量按照顺序排列，并且可以通过一个共同的名称来访问它们。
  2 定义
@@ -1632,7 +1632,7 @@ C 语言提供了多种数据类型，不同的数据类型占据的空间大小
             <title><![CDATA[文件]]></title>
             <link>https://sooloe.com/c/文件</link>
             <guid>https://sooloe.com/c/文件</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[文件
 
 C 语言文件读写操作是指对磁盘上的文件进行读取和写入的操作。这些操作可以通过C语言标准库中提供的函数来实现，例如 fopen、fclose、fread 和 fwrite 等。
@@ -1798,7 +1798,7 @@ C 语言文件读写操作是指对磁盘上的文件进行读取和写入的操
             <title><![CDATA[枚举]]></title>
             <link>https://sooloe.com/c/枚举</link>
             <guid>https://sooloe.com/c/枚举</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[枚举
 
 C 语言中的枚举（Enum）是一种用户定义的数据类型。它通过为每个常量指定一个有意义的名称，来提高程序的可读性和可维护性。
@@ -1848,7 +1848,7 @@ C 语言中的枚举（Enum）是一种用户定义的数据类型。它通过�
             <title><![CDATA[流程控制语句]]></title>
             <link>https://sooloe.com/c/流程控制语句</link>
             <guid>https://sooloe.com/c/流程控制语句</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[流程控制语句
 C语言提供了三种基本的流程控制语句：顺序结构、分支结构和循环结构。顺序结构是指程序按照代码的书写顺序依次执行，分支结构和循环结构可以使程序根据不同的条件进行选择或者重复执行某段代码。
  ]]></description>
@@ -1911,7 +1911,7 @@ C语言提供了三种基本的流程控制语句：顺序结构、分支结构�
             <title><![CDATA[C 语言开发环境搭建]]></title>
             <link>https://sooloe.com/c/环境搭建</link>
             <guid>https://sooloe.com/c/环境搭建</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[1 安装 CLion
 下载最新版 CLion，默认安装即可。
  2 创建工程
@@ -1940,7 +1940,7 @@ C语言提供了三种基本的流程控制语句：顺序结构、分支结构�
             <title><![CDATA[结构体]]></title>
             <link>https://sooloe.com/c/结构体</link>
             <guid>https://sooloe.com/c/结构体</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[结构体
 
 C语言中的结构体是一种自定义数据类型，可以用来存储不同类型的数据。它由多个成员变量组成，每个成员变量可以有不同的数据类型，通过结构体的成员访问符.来访问结构体中的元素。
@@ -2042,7 +2042,7 @@ C语言中的结构体是一种自定义数据类型，可以用来存储不同�
             <title><![CDATA[编译]]></title>
             <link>https://sooloe.com/c/编译</link>
             <guid>https://sooloe.com/c/编译</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[编译
 C 语言是一种编译型语言，程序需要经过编译器的处理生成可执行文件后才能被计算机运行。C 语言的编译过程可以分为四个阶段：预处理、编译、汇编和链接。
 * 预处理: 在预处理阶段，编译器会对源代码进]]></description>
@@ -2207,7 +2207,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[联合体]]></title>
             <link>https://sooloe.com/c/联合体</link>
             <guid>https://sooloe.com/c/联合体</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[联合体
 在 C 语言中，联合体（Union）是一种特殊的数据类型，它允许在同一块内存空间中存储不同类型的数据。实际上，联合体中的每个成员共享同一块内存空间，它们具有相同的地址，但占用的字节数取决于联合]]></description>
             <content:encoded><![CDATA[<h1 id="联合体" tabindex="-1">联合体 <a class="header-anchor" href="#联合体" aria-label="Permalink to &quot;联合体&quot;">&ZeroWidthSpace;</a></h1>
@@ -2243,7 +2243,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[运算符]]></title>
             <link>https://sooloe.com/c/运算符</link>
             <guid>https://sooloe.com/c/运算符</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[
 ## 1 基本运算符
 
@@ -2417,7 +2417,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[预处理]]></title>
             <link>https://sooloe.com/c/预处理</link>
             <guid>https://sooloe.com/c/预处理</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[预处理
 在 C 语言中，预处理器是一个能够在编译之前对代码进行一定程度上的替换和操作的程序。它可以根据我们提供的指令来修改源代码，添加或删除特定的代码块等等。这样做不仅可以减少重复性工作量，还可以使代]]></description>
             <content:encoded><![CDATA[<h1 id="预处理" tabindex="-1">预处理 <a class="header-anchor" href="#预处理" aria-label="Permalink to &quot;预处理&quot;">&ZeroWidthSpace;</a></h1>
@@ -2485,7 +2485,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[Go 学习笔记]]></title>
             <link>https://sooloe.com/go/</link>
             <guid>https://sooloe.com/go/</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[本文记录学习 Go 语言的过程笔记。]]></description>
             <content:encoded><![CDATA[<h2 id="go-学习笔记" tabindex="-1">Go 学习笔记 <a class="header-anchor" href="#go-学习笔记" aria-label="Permalink to &quot;Go 学习笔记&quot;">&ZeroWidthSpace;</a></h2>
 <p>本文记录学习 <strong>Go</strong> 语言的过程笔记。</p>
@@ -2495,7 +2495,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[SOLID 原则]]></title>
             <link>https://sooloe.com/java/SOLID原则</link>
             <guid>https://sooloe.com/java/SOLID原则</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[SOLID 原则是面向对象编程和面向对象设计的五个基本原则，旨在帮助开发人员创建更可维护、更易扩展的代码。它由 Robert C. Martin 于 2004 年提出，现已成为软件设计领域的基石之一。]]></description>
             <content:encoded><![CDATA[<h1 id="solid-原则" tabindex="-1">SOLID 原则 <a class="header-anchor" href="#solid-原则" aria-label="Permalink to &quot;SOLID 原则&quot;">&ZeroWidthSpace;</a></h1>
 <p>SOLID 原则是面向对象编程和面向对象设计的五个基本原则，旨在帮助开发人员创建更可维护、更易扩展的代码。它由 Robert C. Martin 于 2004 年提出，现已成为软件设计领域的基石之一。SOLID 原则的名称来源于其首字母的缩写，分别是：</p>
@@ -3081,7 +3081,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[init]]></title>
             <link>https://sooloe.com/java/</link>
             <guid>https://sooloe.com/java/</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <content:encoded><![CDATA[<h2 id="init" tabindex="-1">init <a class="header-anchor" href="#init" aria-label="Permalink to &quot;init&quot;">&ZeroWidthSpace;</a></h2>
 ]]></content:encoded>
         </item>
@@ -3089,7 +3089,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[单例模式]]></title>
             <link>https://sooloe.com/java/单例模式</link>
             <guid>https://sooloe.com/java/单例模式</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[单例模式，即保证一个类仅有一个实例，并提供一个访问它的全局访问点。使用场景包括线程池、配置类、工具类等。单例模式在内存中只有一个实例，在频繁调用的场景下，减少了内存的开销，尤其是被实例化的类比较耗资源]]></description>
             <content:encoded><![CDATA[<h1 id="单例模式" tabindex="-1">单例模式 <a class="header-anchor" href="#单例模式" aria-label="Permalink to &quot;单例模式&quot;">&ZeroWidthSpace;</a></h1>
 <p>单例模式，即保证一个类仅有一个实例，并提供一个访问它的全局访问点。使用场景包括线程池、配置类、工具类等。单例模式在内存中只有一个实例，在频繁调用的场景下，减少了内存的开销，尤其是被实例化的类比较耗资源的时。同时也能避免多线程之间对共享资源占用的交叉影响。</p>
@@ -3327,7 +3327,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[设计模式：观察者模式]]></title>
             <link>https://sooloe.com/java/观察者模式</link>
             <guid>https://sooloe.com/java/观察者模式</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[设计模式：观察者模式
  观察者设计模式
 定义对象间一对多的依赖关系，当一个对象的状态发生时，所有依赖于它的对象都会得到通知并自动更新，使自己的状态和目标对象保持一致。
@@ -3700,7 +3700,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[常见 BUG]]></title>
             <link>https://sooloe.com/python/bug</link>
             <guid>https://sooloe.com/python/bug</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Python 是一门 `面向对象` 的 `解释型` 高级编程语言，是 `强类型` 的动态脚本语言，`强类型` 意味着不需要显式声明变量的类型，解释器会根据赋给变量的值自动推断其类型。
  常见 BUG
 ]]></description>
@@ -3745,7 +3745,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[range]]></title>
             <link>https://sooloe.com/python/range</link>
             <guid>https://sooloe.com/python/range</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[`range` 函数是 Python 中一个非常实用的内置函数，它用于生成一个整数序列，常用于循环控制，尤其是在需要对一定范围内的数字进行迭代操作时。
  `range` 函数的基本用法
 `range`]]></description>
@@ -3814,7 +3814,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[元组]]></title>
             <link>https://sooloe.com/python/元组</link>
             <guid>https://sooloe.com/python/元组</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[元组（Tuple）是 Python 中一种不可变的序列类型。它使用圆括号 `()` 来定义，元素之间用逗号 `,` 分隔。元组一旦创建，就不能修改其元素的值，因此它也称为“不可变序列”。
  元组的创建]]></description>
             <content:encoded><![CDATA[<h1 id="元组" tabindex="-1">元组 <a class="header-anchor" href="#元组" aria-label="Permalink to &quot;元组&quot;">&ZeroWidthSpace;</a></h1>
@@ -3877,7 +3877,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[函数]]></title>
             <link>https://sooloe.com/python/函数</link>
             <guid>https://sooloe.com/python/函数</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[函数是 Python 中非常重要的概念，它们是代码的构建块，可以帮助我们组织代码、提高代码的可读性和可重用性。
  函数的定义
 - 使用 `def` 关键字定义函数，后面紧跟函数名和圆括号。圆括号内可以]]></description>
@@ -4030,7 +4030,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[切片]]></title>
             <link>https://sooloe.com/python/切片</link>
             <guid>https://sooloe.com/python/切片</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[切片操作是 Python 中一种强大的机制，可以用于从序列类型（如列表、元组、字符串）中提取子序列。它提供了一种简洁高效的方式来访问和操作序列中的元素。
  切片的基本语法
 切片操作的基本语法如下：
@@ -4145,7 +4145,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[列表]]></title>
             <link>https://sooloe.com/python/列表</link>
             <guid>https://sooloe.com/python/列表</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[列表是 Python 中最常用的数据结构之一，它是一种可变的序列类型，用于存储有序的元素集合。列表中的元素可以是任何数据类型，包括数字、字符串、布尔值、甚至其他列表。
  列表的创建
 使用方括号 `[]]]></description>
@@ -4258,7 +4258,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[变量]]></title>
             <link>https://sooloe.com/python/变量</link>
             <guid>https://sooloe.com/python/变量</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[变量是程序中用来存储数据的容器，它们是您在程序中进行操作的基本单位。
  变量的命名
 - 变量名必须以字母或下划线 (`_`) 开头，之后可以包含字母、数字或下划线。
@@ -4325,7 +4325,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[字典]]></title>
             <link>https://sooloe.com/python/字典</link>
             <guid>https://sooloe.com/python/字典</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[字典 (Dictionary) 是 Python 中一种常用的数据结构，它以键值对 (key-value pair) 的形式存储数据。每个键必须是唯一的，并且与一个值关联。字典是无序的，这意味着键值对]]></description>
             <content:encoded><![CDATA[<h1 id="字典" tabindex="-1">字典 <a class="header-anchor" href="#字典" aria-label="Permalink to &quot;字典&quot;">&ZeroWidthSpace;</a></h1>
 <p>字典 (Dictionary) 是 Python 中一种常用的数据结构，它以键值对 (key-value pair) 的形式存储数据。每个键必须是唯一的，并且与一个值关联。字典是无序的，这意味着键值对的顺序是不确定的。</p>
@@ -4441,7 +4441,7 @@ C 语言是一种编译型语言，程序需要经过编译器的处理生成可
             <title><![CDATA[字符串]]></title>
             <link>https://sooloe.com/python/字符串</link>
             <guid>https://sooloe.com/python/字符串</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[# 字符串
 
 在 Python 中，字符串类型 (str) 是用于存储和处理文本数据的一种基本数据类型。它由一系列字符组成，可以包含字母、数字、符号、空格等。
@@ -4752,7 +4752,7 @@ Python 提供了丰富的字符串方法，可以方便地操作字符串。
             <title><![CDATA[布尔]]></title>
             <link>https://sooloe.com/python/布尔</link>
             <guid>https://sooloe.com/python/布尔</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[布尔类型 (`bool`) 是 Python 中的一种基本数据类型，用于表示逻辑真值或假值。它只有两个取值：`True` 和 `False`，分别代表真和假。
  本质
 - 数值本质: 虽然 `True]]></description>
@@ -4838,7 +4838,7 @@ Python 提供了丰富的字符串方法，可以方便地操作字符串。
             <title><![CDATA[常量]]></title>
             <link>https://sooloe.com/python/常量</link>
             <guid>https://sooloe.com/python/常量</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[在 Python 中，严格意义上并没有专门的语法来定义常量。常量通常被理解为在程序运行期间其值不会改变的变量。虽然 Python 没有强制执行常量的概念，但为了提高代码的可读性和维护性，程序员通常会采]]></description>
             <content:encoded><![CDATA[<h1 id="常量" tabindex="-1">常量 <a class="header-anchor" href="#常量" aria-label="Permalink to &quot;常量&quot;">&ZeroWidthSpace;</a></h1>
 <p>在 Python 中，严格意义上并没有专门的语法来定义常量。常量通常被理解为在程序运行期间其值不会改变的变量。虽然 Python 没有强制执行常量的概念，但为了提高代码的可读性和维护性，程序员通常会采用一些约定俗成的做法来模拟常量。</p>
@@ -4898,7 +4898,7 @@ Python 提供了丰富的字符串方法，可以方便地操作字符串。
             <title><![CDATA[数值]]></title>
             <link>https://sooloe.com/python/数值</link>
             <guid>https://sooloe.com/python/数值</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[顾名思义，用于存储数值，Python 支持三种不同的数值类型：整形、浮点型和复数类型。
  整形
 整型 (int)： 表示整数，例如 10, 25, -50。Python 中的整数可以是任意长度的，可以]]></description>
@@ -4984,9 +4984,96 @@ Python 提供了丰富的字符串方法，可以方便地操作字符串。
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[模块]]></title>
+            <link>https://sooloe.com/python/模块</link>
+            <guid>https://sooloe.com/python/模块</guid>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
+            <description><![CDATA[在 Python 的世界里，模块就像是一本本工具书，每个模块都包含了特定领域的功能函数、类和变量。合理使用模块可以提高代码的可复用性，减少重复造轮子，让你的 Python 代码更加简洁优雅。
+ 模块的]]></description>
+            <content:encoded><![CDATA[<h1 id="模块" tabindex="-1">模块 <a class="header-anchor" href="#模块" aria-label="Permalink to &quot;模块&quot;">&ZeroWidthSpace;</a></h1>
+<p>在 Python 的世界里，模块就像是一本本工具书，每个模块都包含了特定领域的功能函数、类和变量。合理使用模块可以提高代码的可复用性，减少重复造轮子，让你的 Python 代码更加简洁优雅。</p>
+<h2 id="模块的本质" tabindex="-1">模块的本质 <a class="header-anchor" href="#模块的本质" aria-label="Permalink to &quot;模块的本质&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>模块本质上就是一个包含 Python 代码的 <code>.py</code> 文件。</li>
+<li>这个文件可以定义函数、类、变量，以及可执行的代码。</li>
+<li>模块就像一个工具箱，把实现特定功能的代码组织在一起。</li>
+</ul>
+<h2 id="模块的优点" tabindex="-1">模块的优点 <a class="header-anchor" href="#模块的优点" aria-label="Permalink to &quot;模块的优点&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><strong>代码重用:</strong> 避免重复编写代码，提高效率。</li>
+<li><strong>代码组织:</strong> 将代码按照功能划分，提高可读性和可维护性。</li>
+<li><strong>命名空间:</strong> 避免不同模块中相同名称的函数、类、变量发生冲突。</li>
+</ul>
+<h2 id="模块的类型" tabindex="-1">模块的类型 <a class="header-anchor" href="#模块的类型" aria-label="Permalink to &quot;模块的类型&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><strong>内置模块:</strong> Python 自带的模块，例如 <code>os</code>, <code>sys</code>, <code>math</code>, <code>random</code> 等。</li>
+<li><strong>第三方模块:</strong> 由其他开发者创建的模块，需要先安装才能使用。例如 <code>requests</code>, <code>numpy</code>, <code>pandas</code> 等。</li>
+<li><strong>自定义模块:</strong> 自己创建的模块，用于组织自己的代码。</li>
+</ul>
+<h2 id="模块的创建" tabindex="-1">模块的创建 <a class="header-anchor" href="#模块的创建" aria-label="Permalink to &quot;模块的创建&quot;">&ZeroWidthSpace;</a></h2>
+<p>创建一个 <code>.py</code> 文件，例如 <code>moudule.py</code> ，在文件中定义函数、类、变量等。</p>
+<div class="language-python vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">python</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># mymodule.py 文件</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">def</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> greet</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(name):</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">    print</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">f</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"Hello, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">{</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">name</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">}</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">!"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># main.py 文件</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> mymodule</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">mymodule.greet(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"Alice"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)  </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># 调用自定义模块中的函数</span></span></code></pre>
+</div><h2 id="模块的使用" tabindex="-1">模块的使用 <a class="header-anchor" href="#模块的使用" aria-label="Permalink to &quot;模块的使用&quot;">&ZeroWidthSpace;</a></h2>
+<h3 id="导入模块" tabindex="-1">导入模块 <a class="header-anchor" href="#导入模块" aria-label="Permalink to &quot;导入模块&quot;">&ZeroWidthSpace;</a></h3>
+<p>使用 <code>import</code> 关键字导入。</p>
+<div class="language-python vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">python</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> math </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># 导入 math 模块</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> random </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">as</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> rnd  </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># 导入 random 模块并起别名为 rnd</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">from</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> os </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> path </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># 从 os 模块导入 path 属性</span></span></code></pre>
+</div><h3 id="导入模块成员" tabindex="-1">导入模块成员 <a class="header-anchor" href="#导入模块成员" aria-label="Permalink to &quot;导入模块成员&quot;">&ZeroWidthSpace;</a></h3>
+<p>使用 <code>.</code> 访问模块中的函数、类、变量。</p>
+<div class="language-python vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">python</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> math </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># 导入 math 模块</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> random </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">as</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> rnd  </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># 导入 random 模块并起别名为 rnd</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">from</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> os </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> path </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># 从 os 模块导入 path 属性</span></span></code></pre>
+</div><h2 id="name-变量" tabindex="-1"><code>__name__</code> 变量 <a class="header-anchor" href="#name-变量" aria-label="Permalink to &quot;`__name__` 变量&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>每个模块都有一个内置变量 <code>__name__</code> 变量。</li>
+<li>当直接运行模块文件时，该变量的值为 <code>__main__</code> 。</li>
+<li>当模块被导入时，该变量的值为模块名。</li>
+</ul>
+<div class="language-python vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">python</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># mymodule.py 文件</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">def</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0"> greet</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(name):</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">    print</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">f</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"Hello, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">{</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">name</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">}</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">!"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">if</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF"> __name__</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583"> ==</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF"> "__main__"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">:</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">    greet(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF">"Bob"</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)  </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># 只有当直接运行 mymodule.py 时才会执行</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># main.py 文件，单纯导入不会执行 mymodule.py 中的 greet("Bob") </span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8"> mymodule </span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">print</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">(mymodule.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF">__name__</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">)  </span><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D"># 输出：mymodule</span></span></code></pre>
+</div><h2 id="模块搜索路径" tabindex="-1">模块搜索路径 <a class="header-anchor" href="#模块搜索路径" aria-label="Permalink to &quot;模块搜索路径&quot;">&ZeroWidthSpace;</a></h2>
+<p>当你使用 <code>import</code> 语句导入模块时，Python 解释器会按照一定的顺序查找模块文件，这个顺序被称为 <strong>模块搜索路径</strong>。假设你想导入一个名为 <code>mymodule</code> 的模块。</p>
+<ul>
+<li>Python 解释器首先会查找 <strong>当前目录</strong> 下是否存在名为 <code>mymodule.py</code> 的文件。例如，如果你正在运行的 Python 文件是 <code>/home/user/project/main.py</code>，Python 会首先在 <code>/home/user/project/</code> 目录下查找 <code>mymodule.py</code>。</li>
+<li>如果在当前目录下没有找到 <code>mymodule.py</code>，Python 就会查找 <code>PYTHONPATH </code> 环境变量** 中指定的目录。例如，如果你的 <code>PYTHONPATH </code> 设置为 <code>/usr/local/lib/python3.8/site-packages:/home/user/my_modules</code>，Python 会依次在 <code>/usr/local/lib/python3.8/site-packages</code> 和 <code>/home/user/my_modules</code> 目录下查找 <code>mymodule.py</code>。</li>
+<li>如果在 <code>PYTHONPATH </code> 中也没有找到，Python 会继续在 <strong>Python 安装目录</strong> 下的 <code>lib/site-packages</code> 目录中查找。这个目录包含了 Python 自带的模块以及你使用 <code>pip install</code> 命令安装的第三方模块。</li>
+</ul>
+<h2 id="常用模块" tabindex="-1">常用模块 <a class="header-anchor" href="#常用模块" aria-label="Permalink to &quot;常用模块&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li><strong><code>os</code>:</strong> 操作系统接口，例如文件操作、进程管理、环境变量等。</li>
+<li><strong><code>sys</code>:</strong> Python 解释器信息，例如 Python 路径、命令行参数等。</li>
+<li><strong><code>math</code>:</strong> 数学函数，例如三角函数、对数函数等。</li>
+<li><strong><code>random</code>:</strong> 随机数生成。</li>
+<li><strong><code>datetime</code>:</strong> 日期时间处理。</li>
+<li><strong><code>requests</code>:</strong> HTTP 请求库。</li>
+<li><strong><code>numpy</code>:</strong> 科学计算库，提供数组和矩阵运算。</li>
+<li><strong><code>pandas</code>:</strong> 数据分析库，提供 <code>DataFrame</code> 数据结构。</li>
+</ul>
+<h2 id="总结" tabindex="-1">总结 <a class="header-anchor" href="#总结" aria-label="Permalink to &quot;总结&quot;">&ZeroWidthSpace;</a></h2>
+<p>Python 模块是组织代码、提高代码复用性和可维护性的重要工具。掌握模块的使用方法，可以让你编写出更加简洁、高效、易于维护的 Python 代码。</p>
+]]></content:encoded>
+        </item>
+        <item>
             <link>https://sooloe.com/python/简介</link>
             <guid>https://sooloe.com/python/简介</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Python 是一门设计简洁、优雅、易于学习的编程语言，它以其丰富的库和强大的功能，在众多领域得到广泛应用。]]></description>
             <content:encoded><![CDATA[<p>Python 是一门设计简洁、优雅、易于学习的编程语言，它以其丰富的库和强大的功能，在众多领域得到广泛应用。</p>
 ]]></content:encoded>
@@ -4995,7 +5082,7 @@ Python 提供了丰富的字符串方法，可以方便地操作字符串。
             <title><![CDATA[语句]]></title>
             <link>https://sooloe.com/python/语句</link>
             <guid>https://sooloe.com/python/语句</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Python 语句是构建程序的基本元素，它们指示 Python 解释器执行特定的操作。语句可以是简单的赋值语句，也可以是复杂的控制流语句。
  基本语句
  赋值语句
@@ -5079,7 +5166,7 @@ Python 提供了丰富的字符串方法，可以方便地操作字符串。
             <title><![CDATA[运算符]]></title>
             <link>https://sooloe.com/python/运算符</link>
             <guid>https://sooloe.com/python/运算符</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[# 运算符
 
 Python 运算符是用来执行各种操作的特殊符号，它们可以对变量和值进行计算、比较、赋值等操作。
@@ -5498,7 +5585,7 @@ Python 运算符是用来执行各种操作的特殊符号，它们可以对变�
             <title><![CDATA[遍历]]></title>
             <link>https://sooloe.com/python/遍历</link>
             <guid>https://sooloe.com/python/遍历</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Python 提供了多种方式来遍历字符串、列表、元组和字典，每种方式都有其独特的优势和应用场景。以下将从多个角度进行详细讲解。
  使用 `for` 循环
  遍历字符串
@@ -5614,7 +5701,7 @@ my_str]]></description>
             <title><![CDATA[集合]]></title>
             <link>https://sooloe.com/python/集合</link>
             <guid>https://sooloe.com/python/集合</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[集合 (Set) 是 Python 中一种无序、不重复元素的集合。它类似于数学中的集合，拥有强大的去重功能，并支持一些数学运算，例如并集、交集、差集等。
  集合的特点
 - 集合元素必须是不可变类型，例]]></description>
@@ -5728,7 +5815,7 @@ my_str]]></description>
             <title><![CDATA[CSS 学习笔记：引入方式和选择器]]></title>
             <link>https://sooloe.com/reading/css</link>
             <guid>https://sooloe.com/reading/css</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[
 # CSS 学习笔记：引入方式和选择器
 
@@ -6505,7 +6592,7 @@ CSS 优先规则 5：属性后插有 !important 的属性拥有最高优先级�
             <title><![CDATA[代码整洁之道学习笔记]]></title>
             <link>https://sooloe.com/reading/代码整洁之道</link>
             <guid>https://sooloe.com/reading/代码整洁之道</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[代码整洁之道学习笔记
  童子军军规
 * 程序员应该积极阻止代码腐坏，让营地比你来时更干净。
@@ -6604,7 +6691,7 @@ CSS 优先规则 5：属性后插有 !important 的属性拥有最高优先级�
             <title><![CDATA[CSS 学习笔记：布局]]></title>
             <link>https://sooloe.com/reading/布局</link>
             <guid>https://sooloe.com/reading/布局</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[CSS 学习笔记：布局
  元素的显示模式
 元素有两三种显示模式：块元素、行内元素和行内块元素。
@@ -6704,7 +6791,7 @@ CSS 优先规则 5：属性后插有 !important 的属性拥有最高优先级�
             <title><![CDATA[重构：改善既有代码设计]]></title>
             <link>https://sooloe.com/reading/重构</link>
             <guid>https://sooloe.com/reading/重构</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[
 # 「重构：改善既有代码设计」学习笔记
 
@@ -6812,7 +6899,7 @@ CSS 优先规则 5：属性后插有 !important 的属性拥有最高优先级�
             <title><![CDATA[Git 常用命令]]></title>
             <link>https://sooloe.com/vientiane/Git常用命令</link>
             <guid>https://sooloe.com/vientiane/Git常用命令</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Git 常用命令
  commit 
 git commit, 将当前分支的修改和父节点做比对，将差异打包进行提交
@@ -6885,7 +6972,7 @@ git commit, 将当前分支的修改和父节点做比对，将差异打包进�
             <title><![CDATA[Git 拉取大文件]]></title>
             <link>https://sooloe.com/vientiane/Git拉取大文件</link>
             <guid>https://sooloe.com/vientiane/Git拉取大文件</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[报错信息
 ```text
 external filter 'git-lfs filter-process' failed
@@ -6921,7 +7008,7 @@ external filter 'git-lfs filter-process' failed
             <title><![CDATA[IDEA 加载大文件]]></title>
             <link>https://sooloe.com/vientiane/IDEA 加载大文件</link>
             <guid>https://sooloe.com/vientiane/IDEA 加载大文件</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[现象
 最近在项目开发过程中，遇到 gRPC 生成的大文件，无法加载。
  解决
@@ -6945,7 +7032,7 @@ idea.max.intellisens]]></description>
             <title><![CDATA[Files.readAllBytes 使用隐患]]></title>
             <link>https://sooloe.com/vientiane/Java读取大文件</link>
             <guid>https://sooloe.com/vientiane/Java读取大文件</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Files.readAllBytes
 是 Java 中一个方便的方法，用于读取文件中的所有字节并将其返回为一个 byte 数组
  现象
@@ -6969,7 +7056,7 @@ java.lang.OutOfMemoryEr]]></description>
             <title><![CDATA[Linux sed]]></title>
             <link>https://sooloe.com/vientiane/Linux sed</link>
             <guid>https://sooloe.com/vientiane/Linux sed</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[sed 命令是什么
 sed, 即 Linux 上的流编辑器, 能够结合正则表达式进行文本处理。
  替换操作
@@ -7075,7 +7162,7 @@ bm	是如果没有到第四行就跳转到 m 继续循环</p>
             <title><![CDATA[Linux 快捷键]]></title>
             <link>https://sooloe.com/vientiane/Linux快捷键</link>
             <guid>https://sooloe.com/vientiane/Linux快捷键</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Linux 命令行常用快捷键
  历史命令快捷键
 * ctrl + p, 上一条命令
@@ -7130,7 +7217,7 @@ bm	是如果没有到第四行就跳转到 m 继续循环</p>
             <title><![CDATA[Maven 多线程编译]]></title>
             <link>https://sooloe.com/vientiane/Maven 多线程编译</link>
             <guid>https://sooloe.com/vientiane/Maven 多线程编译</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[现象
 公司的项目比较大，编译缓慢，耗时 2 个多小时。除了配置各种编译跳过选项后，也需要 1 个小时左右的时间。
 ```
@@ -7157,7 +7244,7 @@ bm	是如果没有到第四行就跳转到 m 继续循环</p>
             <title><![CDATA[Shell 脚本异常退出命令]]></title>
             <link>https://sooloe.com/vientiane/Shell脚本异常退出命令</link>
             <guid>https://sooloe.com/vientiane/Shell脚本异常退出命令</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Shell 脚本中常用的异常退出命令
 shell 脚本异常退出机制是指: 当 shell 脚本在执行过程中发生错误时，脚本会自动退出，以避免出现更多的错误。脚本异常退出机制的实现方式有多种，其中最常用]]></description>
             <content:encoded><![CDATA[<h1 id="shell-脚本中常用的异常退出命令" tabindex="-1"><strong>Shell</strong> 脚本中常用的异常退出命令 <a class="header-anchor" href="#shell-脚本中常用的异常退出命令" aria-label="Permalink to &quot;**Shell** 脚本中常用的异常退出命令&quot;">&ZeroWidthSpace;</a></h1>
@@ -7212,7 +7299,7 @@ shell 脚本异常退出机制是指: 当 shell 脚本在执行过程中发生�
             <title><![CDATA[Spring 事务详解]]></title>
             <link>https://sooloe.com/vientiane/Spring 事务详解</link>
             <guid>https://sooloe.com/vientiane/Spring 事务详解</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[事务
 事务，通常是指数据库事务，是由一组数据库操作序列构成的执行逻辑单元。并非任意的操作序列都是数据库事务，数据库事务有以下四个特性，即 `ACID` 特性。
 * 原子性：事务作为一个整体被执行，这一]]></description>
@@ -7390,7 +7477,7 @@ shell 脚本异常退出机制是指: 当 shell 脚本在执行过程中发生�
             <title><![CDATA[TS2307]]></title>
             <link>https://sooloe.com/vientiane/TS2307</link>
             <guid>https://sooloe.com/vientiane/TS2307</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[TS2307
 使用 Webstorm 创建 VUE 项目，报错显示 
 ```
@@ -7416,7 +7503,7 @@ TS2307: Cannot find module './App.vue' or its corresponding t]]></description>
             <title><![CDATA[Linux crontab 命令]]></title>
             <link>https://sooloe.com/vientiane/crontab</link>
             <guid>https://sooloe.com/vientiane/crontab</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[
 # crontab
 
@@ -7522,7 +7609,7 @@ MAILTO=""
             <title><![CDATA[jar 本地仓库存在, maven 编译失败]]></title>
             <link>https://sooloe.com/vientiane/jar-exist</link>
             <guid>https://sooloe.com/vientiane/jar-exist</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[本地仓库有 jar 包 maven 编译依然报错
  现象
 ```shell
@@ -7538,7 +7625,7 @@ Could not find artifact org.osgi.core:pom:7.0.0 in centralrepo]]></description>
             <title><![CDATA[Windows CPU 高]]></title>
             <link>https://sooloe.com/vientiane/kill svchost</link>
             <guid>https://sooloe.com/vientiane/kill svchost</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[现象
 Windows 系统卡顿，查看任务管理器发现进程 服务主机: Message Manager Service 导致 CPU 高，电源使用情况高，风扇狂转，噪音大。
 尝试结束该进程发现过一会儿后又]]></description>
@@ -7569,7 +7656,7 @@ Windows 系统卡顿，查看任务管理器发现进程 服务主机: Message M
             <title><![CDATA[NVM 管理 NODE 版本]]></title>
             <link>https://sooloe.com/vientiane/nvm</link>
             <guid>https://sooloe.com/vientiane/nvm</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[当不同项目使用不同的 NODE 版本时，可以通过 NVM 来管理 NODE 的版本。
  1、安装 NVM 
 当前 NVM 最新版本为 1.1.11，也可以选择其他版本
@@ -7625,7 +7712,7 @@ Windows 系统卡顿，查看任务管理器发现进程 服务主机: Message M
             <title><![CDATA[scp 命令]]></title>
             <link>https://sooloe.com/vientiane/scp</link>
             <guid>https://sooloe.com/vientiane/scp</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[scp
 scp 命令是用于在不同计算机之间复制文件和目录的命令。
  语法
@@ -7669,7 +7756,7 @@ scp 命令的基本语法如下：其中，source 指要复制的文件或目录
             <title><![CDATA[Mac sips 命令]]></title>
             <link>https://sooloe.com/vientiane/sips</link>
             <guid>https://sooloe.com/vientiane/sips</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Sips 简介
 sips命令是 Mac 自带的一款图片处理的命令行工具，可以根据需要对图片进行裁剪，修改尺寸，翻转以及查看 Meta 信息等
  按长宽比例缩小
@@ -7692,7 +7779,7 @@ sips -z length w]]></description>
             <title><![CDATA[tcpdump]]></title>
             <link>https://sooloe.com/vientiane/tcpdump</link>
             <guid>https://sooloe.com/vientiane/tcpdump</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[tcpdump
 tcpdump 是数据包分析器，运行在命令行下，能够分析网络行为、性能和应用产生或者接收的网络流量。支持对网络层、协议、主机、端口的过滤，提供 and、 or、 not等逻辑语句过滤无]]></description>
             <content:encoded><![CDATA[<h1 id="tcpdump" tabindex="-1">tcpdump <a class="header-anchor" href="#tcpdump" aria-label="Permalink to &quot;tcpdump&quot;">&ZeroWidthSpace;</a></h1>
@@ -7758,7 +7845,7 @@ tcpdump 是数据包分析器，运行在命令行下，能够分析网络行为
             <title><![CDATA[1. 信号的概念：]]></title>
             <link>https://sooloe.com/vientiane/信号量</link>
             <guid>https://sooloe.com/vientiane/信号量</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[## 1. 信号的概念：
 
 信号是用于进程间通信的一种机制，它是一种软件中断，用来通知进程发生了某个事件。当某个进程需要与另一个进程进行交互或者处理某些特殊情况时，可以发送一个信号给目标进程。
@@ -8136,7 +8223,7 @@ tcpdump 是数据包分析器，运行在命令行下，能够分析网络行为
             <title><![CDATA[删除 MacOS 残留的图标]]></title>
             <link>https://sooloe.com/vientiane/删除MacOS残留的图标</link>
             <guid>https://sooloe.com/vientiane/删除MacOS残留的图标</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[MacOS 启动台里的图标删不掉怎么办？打开 Terminal，执行以下命令，替换 xxx 为残留的图标名称或者前缀。
 ```shell
 sqlite3 $(find /private/var/fol]]></description>
@@ -8147,7 +8234,7 @@ sqlite3 $(find /private/var/fol]]></description>
         <item>
             <link>https://sooloe.com/vientiane/删除非软链接的文件</link>
             <guid>https://sooloe.com/vientiane/删除非软链接的文件</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[为了安全考虑，删除前需要判断文件是否是软链接，非软链接文件再执行删除命令，可以使用如下命令
 ```bash
 find /path/to/directory ! -type l -delete
@@ -8168,7 +8255,7 @@ find /path/to/directory ! -type l -delete
             <title><![CDATA[常用正则表达式收集]]></title>
             <link>https://sooloe.com/vientiane/常用正则表达式</link>
             <guid>https://sooloe.com/vientiane/常用正则表达式</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[常用正则表达式收集
  1. 匹配Email地址：
 ```javascript
@@ -8194,7 +8281,7 @@ find /path/to/directory ! -type l -delete
             <title><![CDATA[查找最新修改的文件]]></title>
             <link>https://sooloe.com/vientiane/查找最新修改的文件</link>
             <guid>https://sooloe.com/vientiane/查找最新修改的文件</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[起因
 有时候环境上因为其他人修改了配置导致服务启动异常，可以确定的时候在某个时间点之后才出现的异常，那就需要找出修改的文件列表。
  方案
@@ -8214,7 +8301,7 @@ find /path/to/directory ! -type l -delete
             <title><![CDATA[查询进程启动时间]]></title>
             <link>https://sooloe.com/vientiane/查询进程启动时间</link>
             <guid>https://sooloe.com/vientiane/查询进程启动时间</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[查询进程启动时间
 在 Linux 操作系统中，可以使用 ps 命令来查询进程的信息。 要查询进程的最后一次启动时间，可以使用 `ps -eo pid,lstart` 命令。
  根据进程号查询
@@ -8234,7 +8321,7 @@ find /path/to/directory ! -type l -delete
             <title><![CDATA[秦岭东坪沟草甸]]></title>
             <link>https://sooloe.com/whisper/秦岭东坪沟草甸</link>
             <guid>https://sooloe.com/whisper/秦岭东坪沟草甸</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[秦岭东坪沟草甸
 前些日子和家属说咱俩去爬山吧，家属义愤填膺的回道，你终于想起来要去了。无奈憨笑，自打回到废都，终日忙忙碌碌，难得抽身去散心。分析了诸多徒步路线，考虑到很久没有运动，我们选择了一条路程较]]></description>
             <content:encoded><![CDATA[<h1 id="秦岭东坪沟草甸" tabindex="-1">秦岭东坪沟草甸 <a class="header-anchor" href="#秦岭东坪沟草甸" aria-label="Permalink to &quot;秦岭东坪沟草甸&quot;">&ZeroWidthSpace;</a></h1>
@@ -8253,7 +8340,7 @@ find /path/to/directory ! -type l -delete
             <title><![CDATA[大美青海之行]]></title>
             <link>https://sooloe.com/whisper/青海之行</link>
             <guid>https://sooloe.com/whisper/青海之行</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[西宁
 这次去青海算是蜜月旅行，因为疫情的原因一直拖到现在，办理好休假手续，整理了随行的物品，就迫不及待告别关中平原，出发前往大美青海。
 原本打算自驾，因家人觉得不安全，我们在西安坐上了去西宁的高铁，大]]></description>
@@ -8301,7 +8388,7 @@ find /path/to/directory ! -type l -delete
             <title><![CDATA[Go 语言笔记：Map]]></title>
             <link>https://sooloe.com/go/基础知识/Map</link>
             <guid>https://sooloe.com/go/基础知识/Map</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：Map
  Map
 
@@ -8392,7 +8479,7 @@ movies :=  m]]></description>
             <title><![CDATA[Go 语言笔记：defer]]></title>
             <link>https://sooloe.com/go/基础知识/defer</link>
             <guid>https://sooloe.com/go/基础知识/defer</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：defer
  defer 定义
 `defer` 是 `Go` 新增的关键字，表示延迟调用，在 `defer` 之后可以紧跟表达式或者函数。`defer` 后面的语句会在当前函数执行完毕]]></description>
@@ -8447,7 +8534,7 @@ movies :=  m]]></description>
             <title><![CDATA[Go 语言笔记：函数]]></title>
             <link>https://sooloe.com/go/基础知识/函数</link>
             <guid>https://sooloe.com/go/基础知识/函数</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：函数
  函数定义
 
@@ -8650,7 +8737,7 @@ f]]></description>
             <title><![CDATA[Go 语言笔记：切片]]></title>
             <link>https://sooloe.com/go/基础知识/切片</link>
             <guid>https://sooloe.com/go/基础知识/切片</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：切片
  切片的概念
 
@@ -8756,7 +8843,7 @@ var nums ]]></description>
             <title><![CDATA[Go 语言笔记：包和文件]]></title>
             <link>https://sooloe.com/go/基础知识/包和文件</link>
             <guid>https://sooloe.com/go/基础知识/包和文件</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：包和文件
  导包的方式
 
@@ -8888,7 +8975,7 @@ import (
             <title><![CDATA[Go 语言笔记：变量]]></title>
             <link>https://sooloe.com/go/基础知识/变量</link>
             <guid>https://sooloe.com/go/基础知识/变量</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：变量
  变量
 
@@ -8989,7 +9076,7 @@ var name string
             <title><![CDATA[Go 语言笔记：基础数据类型]]></title>
             <link>https://sooloe.com/go/基础知识/基础数据类型</link>
             <guid>https://sooloe.com/go/基础知识/基础数据类型</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[  
 # Go 语言笔记：基础数据类型
 
@@ -9211,7 +9298,7 @@ var isFemale = false
             <title><![CDATA[Go 语言笔记：字符串]]></title>
             <link>https://sooloe.com/go/基础知识/字符串</link>
             <guid>https://sooloe.com/go/基础知识/字符串</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[  
 # Go 语言笔记：字符串
 
@@ -9388,7 +9475,7 @@ This is a wonderful \n world
             <title><![CDATA[Go 语言笔记：常量]]></title>
             <link>https://sooloe.com/go/基础知识/常量</link>
             <guid>https://sooloe.com/go/基础知识/常量</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：常量
  常量
 
@@ -9455,7 +9542,7 @@ pi = 1.2 // 编译错误 Cannot assign to age，常量不允许重新赋值
             <title><![CDATA[Go 语言笔记：循环语句]]></title>
             <link>https://sooloe.com/go/基础知识/循环语句</link>
             <guid>https://sooloe.com/go/基础知识/循环语句</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：循环语句
  循环语句
 循环语句可以重复执行一段代码，在 `Java` 中，循环语句有 `while` 、`do while`、`for` 语句，但在 `Go` 语言中，只有 `for`]]></description>
@@ -9524,7 +9611,7 @@ pi = 1.2 // 编译错误 Cannot assign to age，常量不允许重新赋值
             <title><![CDATA[Go 语言笔记：指针]]></title>
             <link>https://sooloe.com/go/基础知识/指针</link>
             <guid>https://sooloe.com/go/基础知识/指针</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：指针
  指针
 
@@ -9604,7 +9691,7 @@ pi = 1.2 // 编译错误 Cannot assign to age，常量不允许重新赋值
             <title><![CDATA[Go 语言笔记：数组]]></title>
             <link>https://sooloe.com/go/基础知识/数组</link>
             <guid>https://sooloe.com/go/基础知识/数组</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：数组
  数组
 
@@ -9687,7 +9774,7 @@ pi = 1.2 // 编译错误 Cannot assign to age，常量不允许重新赋值
             <title><![CDATA[Go 语言笔记：条件语句]]></title>
             <link>https://sooloe.com/go/基础知识/条件语句</link>
             <guid>https://sooloe.com/go/基础知识/条件语句</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：条件语句
  条件语句
 `Go` 语言中的条件语句，就是我们在其他语言中常见的 `if` 和 `else`。
@@ -9738,7 +9825,7 @@ if score
             <title><![CDATA[Go 语言笔记：跳转语句]]></title>
             <link>https://sooloe.com/go/基础知识/跳转语句</link>
             <guid>https://sooloe.com/go/基础知识/跳转语句</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：跳转语句
  跳转语句
 `goto` 语句是 `Go` 语言中的跳转语句，后面紧跟一个标签，该标签代表一个代码段的执行起点。
@@ -9793,7 +9880,7 @@ label cod]]></description>
             <title><![CDATA[Go 语言笔记：选择语句]]></title>
             <link>https://sooloe.com/go/基础知识/选择语句</link>
             <guid>https://sooloe.com/go/基础知识/选择语句</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：选择语句
  选择语句
 `Go` 语言中的选择语句也是通过 `switch` 和 `case` 关键字来实现的。
@@ -9885,7 +9972,7 @@ switch]]></description>
             <title><![CDATA[Go 语言笔记：协程]]></title>
             <link>https://sooloe.com/go/进阶部分/协程</link>
             <guid>https://sooloe.com/go/进阶部分/协程</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：协程
  Go 协程
 协程是 Go 语言实现的用户态线程，和线程的区别在于
@@ -9926,7 +10013,7 @@ switch]]></description>
             <title><![CDATA[Go 语言笔记：接口]]></title>
             <link>https://sooloe.com/go/进阶部分/接口</link>
             <guid>https://sooloe.com/go/进阶部分/接口</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：接口
  接口
 接口是对对象行为的抽象和概括，Go 语言的接口类型是延迟绑定，接口只负责定义对象应该做什么，具体实现由对象本身确定。当一个类型定义了接口中的所有方法，我们认为它实现了该接]]></description>
@@ -10249,7 +10336,7 @@ switch]]></description>
             <title><![CDATA[Go 语言笔记：结构体]]></title>
             <link>https://sooloe.com/go/进阶部分/结构体</link>
             <guid>https://sooloe.com/go/进阶部分/结构体</guid>
-            <pubDate>Mon, 08 Jul 2024 11:44:27 GMT</pubDate>
+            <pubDate>Mon, 08 Jul 2024 11:44:49 GMT</pubDate>
             <description><![CDATA[Go 语言笔记：结构体
  结构体
 结构体是一种将一个或者多个任意类型的值聚合的实体，每个值称为结构体的成员，其实结构体就是 `Go` 语言中的类。

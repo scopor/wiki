@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a5 as n}from"./chunks/framework.DhMiq51s.js";const g=JSON.parse('{"title":"模块","description":"","frontmatter":{},"headers":[],"relativePath":"python/模块.md","filePath":"python/模块.md"}'),e={name:"python/模块.md"},t=n("",28),l=[t];function h(p,o,d,k,r,c){return a(),i("div",null,l)}const E=s(e,[["render",h]]);export{g as __pageData,E as default};
