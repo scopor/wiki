@@ -312,6 +312,7 @@ function sidebarPython() {
             collapsed: false,
             items: [
                 { text: '类', link: '/python/类' },
+                { text: '封装', link: '/python/封装' },
                 { text: '继承', link: '/python/继承' },
                 { text: '多态', link: '/python/多态' },
             ]
