@@ -1,0 +1,1 @@
+import{_ as a,c as i,o as s,a5 as e}from"./chunks/framework.DhMiq51s.js";const g=JSON.parse('{"title":"包","description":"","frontmatter":{},"headers":[],"relativePath":"python/包.md","filePath":"python/包.md"}'),t={name:"python/包.md"},n=e("",26),l=[n];function p(h,o,d,c,r,k){return s(),i("div",null,l)}const _=a(t,[["render",p]]);export{g as __pageData,_ as default};
