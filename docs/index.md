@@ -18,19 +18,19 @@ features:
   - title: Go
     icon: 🐬
     details: 程序员的乐趣。
-    link: /go/
+    link: /go/index
   - title: Java
     icon: ☕
     details: 程序员的乐趣。
-    link: /java/
+    link: /java/单例模式
   - title: C
     icon: 🐋
     details: 程序员的乐趣。
-    link: /c/
+    link: /c/环境搭建
   - title: Python
     icon: 🐍
     details: 程序员的乐趣。
-    link: /python/
+    link: /python/简介
   - title: 读书笔记
     icon: 🦋
     details: 言不正经。
