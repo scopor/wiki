@@ -9,7 +9,7 @@ hero:
   actions:
   - theme: brand
     text: 开始阅读
-    link: /go/变量
+    link: /go/基础知识/变量
   - theme: brand
     text: Follow me
     link: https://github.com/scopor
@@ -18,7 +18,7 @@ features:
   - title: Go
     icon: 🐬
     details: 程序员的乐趣。
-    link: /go/变量
+    link: /go/基础知识/变量
   - title: Java
     icon: ☕
     details: 程序员的乐趣。
