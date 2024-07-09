@@ -125,7 +125,7 @@ function nav() {
     return [
         { text: '捉虫万象', link: '/vientiane/Linux快捷键', activeMatch: '/vientiane/Linux快捷键' },
         { text: 'Python', link: '/python/简介', activeMatch: '/python/简介' },
-        { text: 'Go', link: '/go/基础知识/变量', activeMatch: '/go/基础知识/变量 },
+        { text: 'Go', link: '/go/基础知识/变量', activeMatch: '/go/基础知识/变量' },
         { text: 'C', link: '/c/环境搭建', activeMatch: '/c/环境搭建' },
         { text: 'Java', link: '/java/单例模式', activeMatch: '/java/单例模式' },
         { text: '读书笔记', link: '/reading/重构', activeMatch: '/reading/重构' },
