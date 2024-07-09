@@ -123,13 +123,13 @@ export default withMermaid({
 
 function nav() {
     return [
-        { text: '捉虫万象', link: '/vientiane/Linux快捷键', activeMatch: '/vientiane/' },
+        { text: '捉虫万象', link: '/vientiane/Linux快捷键', activeMatch: '/vientiane/Linux快捷键' },
         { text: 'Python', link: '/python/简介', activeMatch: '/python/简介' },
-        { text: 'Go', link: '/go/index', activeMatch: '/go/' },
-        { text: 'C', link: '/c/环境搭建', activeMatch: '/c/' },
-        { text: 'Java', link: '/java/观察者模式', activeMatch: '/java/' },
-        { text: '读书笔记', link: '/reading/重构', activeMatch: '/reading/' },
-        { text: '鱼踪野趣', link: '/whisper/秦岭东坪沟草甸', activeMatch: '/whisper/' }
+        { text: 'Go', link: '/go/变量', activeMatch: '/go/变量' },
+        { text: 'C', link: '/c/环境搭建', activeMatch: '/c/环境搭建' },
+        { text: 'Java', link: '/java/单例模式', activeMatch: '/java/单例模式' },
+        { text: '读书笔记', link: '/reading/重构', activeMatch: '/reading/重构' },
+        { text: '鱼踪野趣', link: '/whisper/秦岭东坪沟草甸', activeMatch: '/whisper/秦岭东坪沟草甸' }
     ]
 }
 
