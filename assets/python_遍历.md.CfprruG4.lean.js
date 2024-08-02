@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a5 as n}from"./chunks/framework.4sasYC7X.js";const o=JSON.parse('{"title":"遍历","description":"","frontmatter":{},"headers":[],"relativePath":"python/遍历.md","filePath":"python/遍历.md"}'),h={name:"python/遍历.md"},l=n("",26),p=[l];function t(k,e,r,d,E,g){return a(),i("div",null,p)}const c=s(h,[["render",t]]);export{o as __pageData,c as default};
